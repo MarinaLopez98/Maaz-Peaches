@@ -1,0 +1,88 @@
+---
+import { join } from "node:path";
+import { AstroFont } from "astro-font";
+
+const appDir = process.cwd();
+---
+
+<AstroFont
+  config={[
+    {
+      name: "Outfit",
+      display: "swap",
+      selector: ".outfit",
+      fallback: "sans-serif",
+      src: [
+        {
+          style: "normal",
+          path: "apparent-apogee/fonts/outfit.ttf",
+        },
+      ],
+    },
+    {
+      display: "swap",
+      name: "Poppins",
+      selector: ".poppins",
+      fallback: "sans-serif",
+      src: [
+        {
+          preload: false,
+          style: "normal",
+          path: "apparent-apogee/fonts/poppins.ttf",
+        },
+      ],
+    },
+    {
+      display: "swap",
+      name: "Righteous",
+      fallback: "sans-serif",
+      selector: ".righteous",
+      src: [
+        {
+          preload: false,
+          style: "normal",
+          path: "apparent-apogee/fonts/righteous.ttf",
+        },
+      ],
+    },
+    {
+      display: "swap",
+      name: "Sanchez",
+      fallback: "serif",
+      selector: ".sanchez",
+      src: [
+        {
+          preload: false,
+          style: "normal",
+          path: "apparent-apogee/fonts/sanchez.ttf",
+        },
+      ],
+    },
+    {
+      display: "swap",
+      fallback: "serif",
+      selector: ".dm-serif",
+      name: "DM Serif Text",
+      src: [
+        {
+          preload: false,
+          style: "normal",
+          path: "apparent-apogee/fonts/dm-serif.ttf",
+        },
+      ],
+    },
+    {
+      display: "swap",
+      fallback: "serif",
+      selector: ".coinfant",
+      name: "Cormorant Infant Regular",
+      src: [
+        {
+          preload: false,
+          style: "normal",
+          path: "apparent-apogee/fonts/CormorantInfant-Regular.ttf",
+        },
+      ],
+    },
+  ]}
+/>
