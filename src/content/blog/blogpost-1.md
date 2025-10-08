@@ -5,7 +5,7 @@ author: Marina Lopez
 tags:
   - Parque de las ciencias
   - Transcripción
-imgUrl: '../../assets/Parquedelasciencias.jpg'
+imgUrl: 'src/assets/peachfirma.jpg'
 description: Transcripción de la conversación con Luis Alacalá
 layout: '../../layouts/BlogPost.astro'
 ---
