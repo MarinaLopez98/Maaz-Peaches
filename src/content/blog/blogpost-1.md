@@ -1,10 +1,10 @@
 ---
-title: Transcript
-pubDate: Segundo de Diciembre 2024
+title: ¡Hola caracola!
+pubDate: Octavo de octubre 2025
 author: Marina Lopez
 tags:
-  - Parque de las ciencias
-  - Transcripción
+  - ¡Lo mejor que puedes hacer es rodar!
+  - Esta de aquí se presenta
 imgUrl: 'src/assets/peachfirma.jpg'
 description: Transcripción de la conversación con Luis Alacalá
 layout: '../../layouts/BlogPost.astro'
