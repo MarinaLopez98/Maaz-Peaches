@@ -7,7 +7,7 @@ export default defineConfig({
   
 
   // used to generate images
-  site: 'https://marinalopez98.github.io'',
+  site: 'https://marinalopez98.github.io',
   base: '/Maaz-Peaches',
   trailingSlash: 'ignore',
   integrations: [sitemap(), UnoCSS({ injectReset: true })],
