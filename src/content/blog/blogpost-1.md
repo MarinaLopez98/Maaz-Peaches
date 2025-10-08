@@ -1,12 +1,12 @@
 ---
-title: ¡Hola caracola!
+title: ¡Hola, caracola!
 pubDate: Octavo de octubre 2025
 author: Marina Lopez
 tags:
   - "¡Si no puedes avanzar, solo rueda!"
   - Esta de aquí se presenta
 imgUrl: 'src/assets/peachfirma.jpg'
-description: "Diario de un ventilador. A veces será español, otras inglés... ¡Quién sabe! c:"
+description: "Diario de un ventilador. A veces será español, otras inglés... ¡Quién sabe! c: Blog para desahogarme cuando los tiempos sean difíciles c: Mantiene el dueño que montó todo el trabajo: Maaz-Selia. Hoy es mi primer día intentándolo y, la verdad, es muy duro, y eso que la mayoría de los contenidos están ya en algún sitio... ¡Maaz, eres el mejor! Las imágenes son de mi querida Matcha, que hace unas ilustraciones preciosas... Alguien podría preguntarse, entonces en qué colaboro yo... ¡Bueno, pues no lo sé muy bien! Escribir y quejarme supongo. ¡Adióóós!"
 layout: '../../layouts/BlogPost.astro'
 ---
 
