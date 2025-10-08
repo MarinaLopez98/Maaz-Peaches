@@ -3,10 +3,10 @@ title: ¡Hola caracola!
 pubDate: Octavo de octubre 2025
 author: Marina Lopez
 tags:
-  - ¡Lo mejor que puedes hacer es rodar!
+  - "¡Si no puedes avanzar, solo rueda!"
   - Esta de aquí se presenta
 imgUrl: 'src/assets/peachfirma.jpg'
-description: Transcripción de la conversación con Luis Alacalá
+description: "Diario de un ventilador. A veces será español, otras inglés... ¡Quién sabe! c:"
 layout: '../../layouts/BlogPost.astro'
 ---
 
