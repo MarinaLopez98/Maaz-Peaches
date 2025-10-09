@@ -7,7 +7,6 @@ tags:
   
 
 description: "Un poema inspirado en mi dolor. Déjalo ir."
-layout: 'src/layouts/BlogPost.astro'
 ---
 
 ## Who said a condemned person can let go.
