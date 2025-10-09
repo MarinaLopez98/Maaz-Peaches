@@ -1,8 +1,10 @@
 ---
 title: "Sweet dreams, my Annabel Lee"
-tags: 
 pubDate: 9.10.2025
 author: Rolling Peaches
+tags:
+  - Sweet dreams
+  - Bad aftertaste
 imgUrl: 'src/assets/Annabel Lee.pdf'
 description: "I thought what was mine was thine.
 And thine was my heart—
