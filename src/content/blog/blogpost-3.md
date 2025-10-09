@@ -15,7 +15,7 @@ Si abriera mi pecho
 Con los dedos  
 Poco a poco  
 El sonido de  
-Mis cotillas  
+Mis costillas  
 Serían las de un  
 Árbol muerto  
 Al dar de sí  
