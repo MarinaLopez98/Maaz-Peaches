@@ -14,6 +14,11 @@ permissions:
   pages: write
   id-token: write
 
+# Cancel in-progress deployments
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
