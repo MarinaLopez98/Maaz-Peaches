@@ -18,7 +18,8 @@ interface Props {
 
 const { blogpost } = Astro.props;
 const { Content } = await blogpost.render();
-const { title, description, pubDate, author } = blogpost.data;
+const { title, description, author } = blogpost.data;
+const pubDate = new Date(blogpost.data.pubDate);
 ---
 
 <Layout title={title} description={description}>
