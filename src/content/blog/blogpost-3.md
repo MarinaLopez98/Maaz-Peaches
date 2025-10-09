@@ -9,7 +9,7 @@ imgUrlHover: 'src/assets/treeperson.jpg'
 description: "Un poema inspirado en mi dolor. Déjalo ir."
 ---
 
-## Who said a condemned person can let go.
+## Who said a condemned person can let go
 
 Si abriera mi pecho  
 Con los dedos  

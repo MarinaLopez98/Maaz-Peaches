@@ -8,7 +8,6 @@ tags:
 imgUrl: 'src/assets/Annabel.jpg'
 imgUrlHover: 'src/assets/past.jpg'
 description: "Un poema inspirado en Annabel Lee de Edgar Allan Poe."
-layout: 'src/layouts/BlogPost.astro'
 ---
 
 ## Sweet dreams, my Annabel Lee
