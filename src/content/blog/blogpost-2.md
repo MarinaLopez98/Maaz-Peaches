@@ -6,10 +6,11 @@ tags:
   - Sweet dreams
   - Bad aftertaste
 imgUrl: 'src/assets/Annabel.jpg'
-description: "I thought what was mine was thine.
-And thine was my heart—
+description:
+"I thought what was mine was thine.
+And thine was my heart-
 that now drags itself,
-dust-stained, aching,
+dust- stained, aching,
 and blind.
 
 If thou didst not desire it,
