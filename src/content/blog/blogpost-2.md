@@ -20,5 +20,5 @@ Smaller, and smaller,
 ever smaller,
 while it crawls, still,
 after thee."
-layout: './../layouts/BlogPost.astro'
+layout: 'src/layouts/BlogPost.astro'
 ---
