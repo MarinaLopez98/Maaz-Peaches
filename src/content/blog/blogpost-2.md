@@ -1,5 +1,5 @@
 ---
-title: "Sweet dreams, Annabel Lee"
+title: "Sweet dreams, my Annabel Lee"
 pubDate: 9.10.2025
 author: Rolling Peaches
 imgUrl: 'src/assets/Annabel Lee.pdf'
