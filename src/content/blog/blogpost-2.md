@@ -5,7 +5,7 @@ author: Rolling Peaches
 tags:
   - Sweet dreams
   - Bad aftertaste
-imgUrl: 'src/assets/Annabel Lee.pdf'
+imgUrl: 'src/assets/Annabel.jpg'
 description: "I thought what was mine was thine.
 And thine was my heart—
 that now drags itself,
