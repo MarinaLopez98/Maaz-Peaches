@@ -18,7 +18,7 @@ Poco a poco
 El sonido de
 Mis cotillas
 Serían las de un 
-ñArbol muerto
+Árbol muerto
 Al dar de sí
 Lo que pudo
 
