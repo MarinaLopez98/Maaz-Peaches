@@ -5,7 +5,7 @@ author: Rolling Peaches
 tags:
   - Anatómicamente doloroso
 imgUrl: 'src/assets/chest.jpg'
-imgUrlHover: 'src/assets/past.jpg'
+imgUrlHover: 'src/assets/tree person.jpg'
 description: "Un poema inspirado en mi dolor. Déjalo ir."
 ---
 
