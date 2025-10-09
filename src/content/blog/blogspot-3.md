@@ -4,7 +4,7 @@ pubDate: 14.09.2025
 author: Rolling Peaches
 tags:
   - Anatómicamente doloroso
-imgUrl: 'src/assets/Annabel.jpg'
+imgUrl: 'src/assets/chest.jpg'
 imgUrlHover: 'src/assets/past.jpg'
 description: "Un poema inspirado en mi dolor. Déjalo ir."
 ---
