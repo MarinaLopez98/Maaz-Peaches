@@ -3,7 +3,7 @@ title: ¡Hola, caracola!
 pubDate: Octavo de octubre 2025
 author: Marina Lopez
 tags:
-  - "¡Si no puedes avanzar, solo rueda!"
+  - "¡Si no puedes avanzar, limítate a rodar!"
   - Esta de aquí se presenta
 imgUrl: 'src/assets/peachfirma.jpg'
 imgUrlHover: 'src/assets/rosafirma.jpg'
