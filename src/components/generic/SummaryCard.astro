@@ -21,7 +21,7 @@ const { title, imgAlt, imgSrc, imgSrcHover, description } = Astro.props;
       alt={imgAlt}
       width={800}
       height={400}
-      class='rounded b-full w-full object-cover image-front'
+      class='rounded w-full h-full object-cover image-front'
     />
     {imgSrcHover && (
       <Image
@@ -29,7 +29,7 @@ const { title, imgAlt, imgSrc, imgSrcHover, description } = Astro.props;
         alt={imgAlt}
         width={800}
         height={400}
-        class='rounded b-full w-full object-cover image-back'
+        class='rounded w-full h-full object-cover image-back'
       />
     )}
   </div>
@@ -41,17 +41,18 @@ const { title, imgAlt, imgSrc, imgSrcHover, description } = Astro.props;
   .image-swap-container {
     position: relative;
     overflow: hidden;
-    height: 14rem; /* h-56 equivale a 14rem */
+    height: 20rem;
+    cursor: pointer;
   }
   
   .image-front, .image-back {
-    position: absolute !important;
+    position: absolute;
     top: 0;
     left: 0;
-    width: 100% !important;
-    height: 100% !important;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.4s ease-in-out;
   }
   
   .image-back {

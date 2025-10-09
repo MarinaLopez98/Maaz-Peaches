@@ -4,9 +4,6 @@ import UnoCSS from 'unocss/astro';
 
 export default defineConfig({
   // GitHub Deployment
-  
-
-  // used to generate images
   site: 'https://marinalopez98.github.io',
   base: '/Maaz-Peaches',
   trailingSlash: 'ignore',

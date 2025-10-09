@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Layout from '@layouts/Default.astro';
 import BlogList from '@components/blog/BlogList.astro';
+import { Card } from '@eliancodes/brutal-ui';
 
 const posts = await getCollection('blog').then((collection) =>
   collection.reverse()
@@ -10,10 +11,20 @@ const posts = await getCollection('blog').then((collection) =>
 
 <Layout
   title='Blog'
-  description='Brutal Blog | On this page you can find a collection of blogposts'
-  pageTitle='Brutal Blog'
+  description='Todos los escritos y arte del blog Rolling Peaches'
+  pageTitle='Todo el contenido'
 >
-  <main class='bg-green p-6'>
-    <BlogList posts={posts} />
+  <main class='bg-#e4a6ca p-6'>
+    <div class='max-w-6xl mx-auto'>
+      <Card color='#E1D5E8'>
+        <h1 class='text-3xl md:text-5xl lg:text-6xl mb-8 dm-serif'>
+          Todo el contenido
+        </h1>
+        <p class='poppins text-lg mb-8 text-gray-600'>
+          Aquí encontrarás todos los escritos, poemas y arte publicados en Rolling Peaches.
+        </p>
+        <BlogList posts={posts} />
+      </Card>
+    </div>
   </main>
 </Layout>

@@ -1,5 +1,5 @@
 {
-  "name": "apparent-apogee",
+  "name": "maaz-peaches",
   "version": "1.2.0",
   "type": "module",
   "packageManager": "pnpm@8.6.0",
@@ -18,11 +18,11 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "@astrojs/rss": "^4.0.9",
-    "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/rss": "^4.0.12",
+    "@astrojs/sitemap": "^3.6.0",
     "@eliancodes/brutal-ui": "^0.2.3",
     "@unocss/astro": "^0.57.7",
-    "astro": "^4.16.15",
+    "astro": "^5.14.3",
     "astro-font": "^0.0.80",
     "pnpm": "^9.14.4",
     "satori": "^0.5.0",
