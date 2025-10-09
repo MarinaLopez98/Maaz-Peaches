@@ -1,6 +1,6 @@
 ---
 title: "Qué significa dejar ir"
-pubDate: 14 de septiembre 2025
+pubDate: 2025-09-14
 author: Rolling Peaches
 tags:
   - Anatómicamente doloroso

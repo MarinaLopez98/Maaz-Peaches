@@ -1,6 +1,6 @@
 ---
 title: "Sweet dreams, my Annabel Lee"
-pubDate: 9 de octubre 2025
+pubDate: 2025-10-09
 author: Rolling Peaches
 tags:
   - Sweet dreams

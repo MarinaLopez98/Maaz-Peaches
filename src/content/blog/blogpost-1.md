@@ -1,6 +1,6 @@
 ---
 title: ¡Hola, caracola!
-pubDate: Octavo de octubre 2025
+pubDate: 2025-10-08
 author: Marina Lopez
 tags:
   - "¡Si no puedes avanzar, limítate a rodar!"
