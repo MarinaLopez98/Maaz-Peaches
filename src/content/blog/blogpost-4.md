@@ -5,7 +5,7 @@ author: Rolling Peaches
 tags:
   - Sweet dreams
   - Bad aftertaste
-imgUrl: 'src/assets/Annabel.jpg'
+imgUrl: 'src/assets/Galaxia.jpg'
 imgUrlHover: 'src/assets/past.jpg'
 description: "Un poema inspirado en Annabel Lee de Edgar Allan Poe."
 ---
