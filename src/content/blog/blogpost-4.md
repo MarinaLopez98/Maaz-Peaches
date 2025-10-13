@@ -1,32 +1,31 @@
 ---
 title: "Sweet dreams, my Annabel Lee"
-pubDate: '2025-10-09'
+pubDate: '2023-05-08'
 author: Rolling Peaches
 tags:
   - Sweet dreams
   - Bad aftertaste
 imgUrl: 'src/assets/Galaxia.jpg'
 imgUrlHover: 'src/assets/Split powder.jpg'
-description: "Un poema inspirado en Annabel Lee de Edgar Allan Poe."
+description: "Poema e ilustraciones, por gracia de Matcha."
 ---
 
-## Sweet dreams, my Annabel Lee
+## Planetaria I
 
-I thought what was mine was thine.  
-And thine was my heart-  
-that now drags itself,  
-dust- stained, aching,  
-and blind.
+Si cada uno tiene un mundo 
+el mío sería como Urano.
+Invierno eterno, frío profundo 
+que nieva sobre mi pelo cano.
 
-If thou didst not desire it,  
-why take it?  
-Why cast it here, forsaken?
+Si alguien intenta sobrepasar los satélites
+y llegar a mi corazón turquesa.
+Si alguien pudiera abrazar
+Un núcleo de niebla espesa.
 
-Smaller, and smaller,  
-ever smaller,  
-while it crawls, still,  
-after thee.
-
+¿Podría yo sentirlo? 
+Porque temo que lo que antes era piel  
+ahora es una coraza de hielo aislante.
+Ni las miradas ni los abrazos pueden alzanzarte.
 ---
 
-*Inspired by Edgar Allan Poe's "Annabel Lee"*
+*Llanos Batanás Boza*
