@@ -25,7 +25,7 @@ Un núcleo de niebla espesa.
 ¿Podría yo sentirlo?  
 Porque temo que lo que antes era piel    
 ahora es una coraza de hielo aislante.  
-Ni las miradas ni los abrazos pueden alzanzarte.  
+Ni las miradas ni los abrazos pueden alcanzarte.  
 
 ![Ilustración Deleite](../../assets/Deleite.jpg)
 
