@@ -1,5 +1,5 @@
 ---
-title: "Sweet dreams, my Annabel Lee"
+title: "Planetaria I"
 pubDate: '2023-05-08'
 author: Rolling Peaches
 tags:
@@ -26,6 +26,8 @@ Un núcleo de niebla espesa.
 Porque temo que lo que antes era piel  
 ahora es una coraza de hielo aislante.
 Ni las miradas ni los abrazos pueden alzanzarte.
+
+imgUrl: 
 ---
 
 *Llanos Batanás Boza*
