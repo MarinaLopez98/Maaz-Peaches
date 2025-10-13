@@ -6,7 +6,7 @@ tags:
   - Sweet dreams
   - Bad aftertaste
 imgUrl: 'src/assets/Galaxia.jpg'
-imgUrlHover: 'src/assets/past.jpg'
+imgUrlHover: 'src/assets/Split powder.jpg'
 description: "Un poema inspirado en Annabel Lee de Edgar Allan Poe."
 ---
 
