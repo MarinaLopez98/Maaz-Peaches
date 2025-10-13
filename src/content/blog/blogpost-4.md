@@ -3,8 +3,8 @@ title: "Planetaria I"
 pubDate: '2023-05-08'
 author: Llanos Batanás Boza
 tags:
-  - Sweet dreams
-  - Bad aftertaste
+  - La soledad
+  - Que te aísla
 imgUrl: ../../assets/Galaxia.jpg
 imgUrlHover: ../../assets/Split powder.jpg
 description: "Poema e ilustraciones, por gracia de Matcha."
