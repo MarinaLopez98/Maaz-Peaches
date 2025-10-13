@@ -27,7 +27,7 @@ Porque temo que lo que antes era piel
 ahora es una coraza de hielo aislante.
 Ni las miradas ni los abrazos pueden alzanzarte.
 
-imgUrl: 
+imgUrl: src/assets/Deleite.jpg
 ---
 
 *Llanos Batanás Boza*
