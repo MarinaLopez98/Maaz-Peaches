@@ -7,7 +7,7 @@ tags:
   - A lie
 imgUrl: src/assets/Nostalgia and pain.jpg
 imgUrlHover: src/assets/flying in the universe.jpg
-description: "Vacío."
+description: "Solo vacío."
 ---
 
 ## Dónde quedaron los sueños
