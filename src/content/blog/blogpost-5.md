@@ -5,7 +5,7 @@ author: Rolling Peaches
 tags:
   - Lo sabes
   - Y no puedes
-  - imgUrl: ../../assets/Annabel.jpg
+  - imgUrl: src/assets/Nostalgia and pain.jpg
 imgUrlHover: ../../assets/past.jpg
 description: "Un poema inspirado en Annabel Lee de Edgar Allan Poe."
 ---
