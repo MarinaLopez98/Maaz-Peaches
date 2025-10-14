@@ -5,8 +5,8 @@ author: Rolling Peaches
 tags:
   - Forever
   - A lie
-  - imgUrl: src/assets/Nostalgia and pain.jpg
-imgUrlHover: src/assets/flying in the universe.jpg
+imgUrl: ../../assets/Nostalgia and pain.jpg
+imgUrlHover: ../../assets/flying in the universe.jpg
 description: "Vacío."
 ---
 
