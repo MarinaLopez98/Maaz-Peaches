@@ -39,7 +39,7 @@ Mientras muere sin morir.
 
 Y espera, mientras ciega   
 Se repite, te quiero,   
-te quiero.   
+_te quiero._   
 Te quiero.   
 
 ---
