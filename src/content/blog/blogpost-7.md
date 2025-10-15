@@ -16,4 +16,4 @@ Ojalá que mi conciencia nunca fuera mía t así vivir en una realidad de sueño
 Peach."
 ---
 
-![Ilustración Peach](../../assets/Deleite.jpg)
+![Ilustración Peach](src/assets/Peach.jpg)
