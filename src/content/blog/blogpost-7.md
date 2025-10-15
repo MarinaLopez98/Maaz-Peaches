@@ -1,6 +1,6 @@
 ---
 title: "Una realidad de la que despertar"
-pubDate: '2025-10-15'
+pubDate: "2025-10-15"
 author: Marina Lopez
 tags:
   - "los sueños"
