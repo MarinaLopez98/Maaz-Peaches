@@ -7,9 +7,9 @@ tags:
   - "sueños son"
 imgUrl: "src/assets/mundo paralelo.jpg"
 imgUrlHover: "src/assets/el despertar.jpg"
-description: "Mi día... Se ha sentido frío, quizá un poco como Planetaria I debe sentirse en ese halo de belleza misteriosa que la envuelve. Lo mundano me ahoga, me atrapa
-y en ocasiones se siente como caminar en arenas movedizas, tarea imposible. He hecho todo lo posible hoy, igual que ayer. Igual que anteayer. Igual que el día de antes.
-Y simplemente no veo mejora. Dadme ánimos, yo os doy mi sincero abrazo. Sé que se puede y mañana, igual que todos los días anteriores, volveré a hacer todo lo posible.
+description: "Hoy el amanecer era más brillante, como si quisiera decirme ue todo va a ir bien.
+Antes de poder disfrutar de la sensación de un día sonriente, me di cuenta de que solo habían sido sueños, sueños que ya pasaron. La conciencia al despertar desgraciadamente volvóa a ser mía. Aquellos sueños de independencia, sueños de amor...
+Ojalá que mi conciencia nunca fuera mía t así vivir en una realidad de sueños alegres, que me sonríen, soles que brillan y una vida que solo puede ir bien.
 
 Si alguna vez os sentís así, recordad, seguid rodando... Un saludo,  
 Peach."
