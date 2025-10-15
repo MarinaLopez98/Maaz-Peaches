@@ -1,6 +1,6 @@
 ---
 title: "Frío bajo la piel, un corazón en combustión"
-pubDate: '2025-10-08'
+pubDate: '2025-10-14'
 author: Marina Lopez
 tags:
   - "A ver cómo rodamos esta..."
