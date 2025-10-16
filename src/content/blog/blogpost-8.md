@@ -10,7 +10,7 @@ imgUrlHover: "src/assets/Just try no matter how.jpg"
 description: No supe ver tu necesidad, tus ganas de huir, de echar a volar. La vida es así, y así, te perdí.  
 ---
 
-## No pasará
+## ¿Cómo, qué?
 Me someto.
 Y si una no es suficiente,
 una y mil veces.
