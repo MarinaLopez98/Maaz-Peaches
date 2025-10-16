@@ -7,11 +7,40 @@ tags:
   - "tu necesidad"
 imgUrl: "src/assets/killing butterflies.jpg"
 imgUrlHover: "src/assets/Just try no matter how.jpg"
-description: Hoy el amanecer era más brillante. Como si quisiera decirme que todo va a ir bien. Antes de poder disfrutar de la sensación de un día sonriente, me di cuenta de que solo habían sido sueños, sueños que ya pasaron. La conciencia al despertar desgraciadamente volvía a ser mía. 
+description: Te perdí  
+y no supe ver tu necesidad,  
+tus ganas de huir, de echar a volar.  
+La vida es así, y así,  
+te perdí.  
 ---
 
-## El despertar
-Aquellos sueños de independencia, sueños de amor... Ojalá que mi conciencia nunca fuera mía y así vivir en una realidad de sueños alegres, que me sonríen, soles que brillan y una vida que solo puede ir bien.  
+## No pasará
+Me someto.
+Y si una no es suficiente,
+una y mil veces.
+Y Dios, a quien sea, a ti.  
+
+No soy alguien sumiso, ni lo quiero ser,
+pero es el deseo de que sepas
+que estoy aquí para escuchar.  
+
+Sé que que el que te supere y cierre puertas es lo que deseas,
+pero hoy una persona sabia, desgraciadamente, me confirma: no puede ser así.
+Porque fui yo quien pasó ese tiempo contigo,
+y mi compromiso y mi amor
+pueden con todos los entramados
+y el dolor que te haya podido causar.
+Y sabes que soy así.   
+
+Lo que lleve.
+Todo lo que lleve y me cueste.
+Y adónde nos lleve la vida,
+uno nunca sabe.  
+
+Pero ten por seguro
+mis creencias...
+Cuando una persona realmente desea algo,
+el universo entero conspira para que pueda realizar su sueño.    
 
 Si alguna vez os sentís así, recordad, seguid rodando... Un saludo,    
 Peach."
