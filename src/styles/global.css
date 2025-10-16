@@ -119,3 +119,8 @@ html {
 {
   background-color: aliceblue;
 }
+
+/* Remove bold from blog content paragraphs */
+.prose p {
+  font-weight: normal !important;
+}
