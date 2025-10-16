@@ -7,11 +7,7 @@ tags:
   - "tu necesidad"
 imgUrl: "src/assets/killing butterflies.jpg"
 imgUrlHover: "src/assets/Just try no matter how.jpg"
-description: Te perdí  
-y no supe ver tu necesidad,  
-tus ganas de huir, de echar a volar.  
-La vida es así, y así,  
-te perdí.  
+description: No supe ver tu necesidad, tus ganas de huir, de echar a volar. La vida es así, y así, te perdí.  
 ---
 
 ## No pasará
