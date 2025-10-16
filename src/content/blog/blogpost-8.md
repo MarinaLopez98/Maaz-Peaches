@@ -5,7 +5,7 @@ author: Marina Lopez
 tags:
   - "no supe ver"
   - "tu necesidad"
-imgUrl: "src/assets/mundo paralelo.jpg"
+imgUrl: "src/assets/killing butterflies.jpg"
 imgUrlHover: "src/assets/el despertar.jpg"
 description: Hoy el amanecer era más brillante. Como si quisiera decirme que todo va a ir bien. Antes de poder disfrutar de la sensación de un día sonriente, me di cuenta de que solo habían sido sueños, sueños que ya pasaron. La conciencia al despertar desgraciadamente volvía a ser mía. 
 ---
