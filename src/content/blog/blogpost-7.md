@@ -13,8 +13,9 @@ description: Hoy el amanecer era más brillante. Como si quisiera decirme que to
 ## El despertar
 Aquellos sueños de independencia, sueños de amor... Ojalá que mi conciencia nunca fuera mía y así vivir en una realidad de sueños alegres, que me sonríen, soles que brillan y una vida que solo puede ir bien.  
 
-Si alguna vez os sentís así, recordad, seguid rodando... Un saludo,    
-Peach."
+Si alguna vez os sentís así, recordad, seguid rodando.   
+Un saludo,    
+Peach.
 ---
 
 ![Ilustración Peach](src/assets/Peach.jpg)
