@@ -5,8 +5,8 @@ author: Rolling Peaches
 tags:
   - Forever
   - A lie
-imgUrl: ../../assets/Nostalgia and pain.jpg
-imgUrlHover: ../../assets/flying in the universe.jpg
+imgUrl: "../../assets/Nostalgia and pain.jpg"
+imgUrlHover: "../../assets/flying in the universe.jpg"
 description: "Vacío."
 ---
 
@@ -39,8 +39,10 @@ Mientras muere sin morir.
 
 Y espera, mientras ciega   
 Se repite, te quiero,   
-te quiero,   
+_te quiero._   
 Te quiero.   
-
 ---
 
+Si alguna vez os sentís así, recordad, seguid rodando.   
+Un saludo,    
+Peach.
