@@ -43,6 +43,6 @@ _te quiero._
 Te quiero.   
 ---
 
-Si alguna vez os sentís así, recordad, seguid rodando.   
-Un saludo,    
-Peach.
+**Si alguna vez os sentís así, recordad, seguid rodando.  
+Un saludo,  
+Peach.**

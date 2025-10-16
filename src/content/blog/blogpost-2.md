@@ -30,3 +30,7 @@ after thee.
 ---
 
 *Inspired by Edgar Allan Poe's "Annabel Lee"*
+
+**Si alguna vez os sentís así, recordad, seguid rodando.  
+Un saludo,  
+Peach.**

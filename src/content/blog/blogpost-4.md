@@ -32,3 +32,7 @@ Ni las miradas ni los abrazos pueden alcanzarte.
 ---
 
 *Poema por Llanos Batanás Boza*
+
+**Si alguna vez os sentís así, recordad, seguid rodando.  
+Un saludo,  
+Peach.**

@@ -22,3 +22,7 @@ Al dar de sí
 Lo que pudo
 
 ---
+
+**Si alguna vez os sentís así, recordad, seguid rodando.  
+Un saludo,  
+Peach.**

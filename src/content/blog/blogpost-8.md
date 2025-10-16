@@ -38,9 +38,10 @@ mis creencias...
 _Cuando una persona realmente desea algo,
 el universo entero conspira para que pueda realizar su sueño._    
 
-Si alguna vez os sentís así, recordad, seguid rodando.   
-Un saludo,    
-Peach.
+**Si alguna vez os sentís así, recordad, seguid rodando.  
+Un saludo,  
+Peach.**
+
 ---
 
 ![Ilustración Peach](src/assets/Peach.jpg)
