@@ -4,7 +4,7 @@ pubDate: "2025-10-14"
 author: Marina Lopez
 tags:
   - "A ver cómo rodamos esta..."
-imgUrl:"src/assets/sin letras.jpg"
+imgUrl: "src/assets/sin letras.jpg"
 imgUrlHover: "src/assets/urano.jpg"
 description: "Mi día... Fue frío"
 ---
