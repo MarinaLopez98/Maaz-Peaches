@@ -43,6 +43,8 @@ _te quiero._
 Te quiero.   
 
 ---
+![Ilustración Peach](src/assets/Peach.jpg)
+
 
 **Si alguna vez os sentís así, recordad, seguid rodando.  
 Un saludo,  
