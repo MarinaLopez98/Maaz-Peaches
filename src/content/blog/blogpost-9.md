@@ -4,7 +4,7 @@ pubDate: "2025-10-16"
 author: Marina Lopez
 tags:
   - "el tiempo infinito"
-imgUrl: "src/assets/killing butterflies.jpg"
+imgUrl: "src/assets/paisaje.jpg"
 imgUrlHover: "src/assets/Just try no matter how.jpg"
 description: No supe ver tu necesidad, tus ganas de huir, de echar a volar. La vida es así, y así, te perdí.  
 ---
