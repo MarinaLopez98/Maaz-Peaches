@@ -1,5 +1,5 @@
  ---
-title: "Hello stranger"
+title: "Hello stranger" 
 pubDate: '2025-10-18'
 author: Marina Lopez
 tags:
