@@ -9,7 +9,7 @@ imgUrlHover: "src/assets/recuerdos.jpg"
 description: Nubes de chicle
 ---
 
-## Por fin 
+## al fin y que siga así
 Se siente como si los raíles tuvieran pegamento y los vagones pesaran varias toneladas más.
 Que voy a verte, a verte de verdad, cuando un año nos separa.
 ¿Qué pensarás? ¿Notarás mi vacío, mi dolor, mi frío?
