@@ -5,7 +5,7 @@ author: Marina Lopez
 tags:
   - "A ver cómo rodamos esta..."
 imgUrl: "../../assets/letras borrositas.jpg"
-hoverimgUrl:"src/assets/urano.jpg"
+imgUrlimgUrlhover:"src/assets/urano.jpg"
 description: "Mi día... Fue frío"
 ---
 
