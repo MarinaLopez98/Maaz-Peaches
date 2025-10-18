@@ -5,7 +5,7 @@ author: Marina Lopez
 tags:
   - "La verdadera fuerza"
   - "No es lo que pensabas"
-imgUrl: ../../assets/peachfirma.jpg
+imgUrl: src/assets/inner strength.jpg
 imgUrlHover: ../../assets/rosafirma.jpg
 description: "Diario de un ventilador."
 ---
