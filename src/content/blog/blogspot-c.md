@@ -6,8 +6,8 @@ tags:
   - "La verdadera fuerza"
   - "No es lo que pensabas"
 imgUrl: src/assets/inner strength.jpg
-imgUrlHover: ../../assets/rosafirma.jpg
-description: "Diario de un ventilador."
+imgUrlHover: src/assets/clear skies clear mind.jpg
+description: "Inner strenght."
 ---
 ## Blog para desahogarme cuando los tiempos sean difíciles.
 
