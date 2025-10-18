@@ -7,11 +7,17 @@ tags:
   - "No es lo que pensabas"
 imgUrl: src/assets/inner strength.jpg
 imgUrlHover: src/assets/clear skies clear mind.jpg
-description: "Inner strenght."
+description: "Admiración y aprendizaje."
 ---
-## Blog para desahogarme cuando los tiempos sean difíciles.
+## Aprender y llorar
 
-A veces será español, otras inglés... ¡Quién sabe! c: Mantiene el dueño que montó el trabajo inicial: Maaz-Selia. Hoy es mi primer día intentando continuarlo y, la verdad, es muuuuy difícil... ¡Maaz, te haré sentir orgulloso! También veréis arte de personas tan especiales como mi Matcha, que hace unas ilustraciones preciosas y emotivas... Por ejemplo, la Peach dibujada por ella de este post no rueda, es mágica. ¡Una maho shojo! Alguien podría preguntarse, y entonces en qué colaboro yo... ¡Bueno, pues no sé muy bien! Escribir, quejarme y rodar supongo Ü. ¡Adióóós!"
+La miro mientras sonríe, aunque en sus ojos veo un deje de preocupación.
+Estás bien, pregunto, y me dice que no pasa nada mientras su sonrisa se ensancha.
+Lo sé. Es fuerte, mucho más que yo. Me contengo, le digo que estoy ahí y me siento a su lado.
+No volveré a caer en antiguos errores. Nadie quiere un apoyo que hace pequeño
+al otro, como si no fueran capaces. Como si no pudieran ellos mismos. Como si fueran menos.
+Empiezo a escribir y sé que ha sido una buena decisión. Que las lágrimas fluyan
+es uno de los mejores conductos aliviantes de todo mal del corazón, se dice. 
 
 ---
 
