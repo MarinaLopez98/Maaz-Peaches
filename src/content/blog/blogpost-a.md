@@ -5,7 +5,7 @@ author: Marina Lopez
 tags:
   - "reencounter"
   - let's cross paths? 
-imgUrl: "src/assets/paisaje.jpg"
+imgUrl: "src/assets/gy"
 imgUrlHover: "src/assets/recuerdos.jpg"
 description: Hello, stranger 
 ---
