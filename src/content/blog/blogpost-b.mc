@@ -5,7 +5,7 @@ author: Marina Lopez
 tags:
   - "depertar"
   - "en amabilidad"
-imgUrl: "src/assets/juntitas.jpg"
+imgUrl: "src/assets/Juntitas.jpg"
 imgUrlHover: "src/assets/Matcha.jpg"
 description: "Desconcierto."
 ---
