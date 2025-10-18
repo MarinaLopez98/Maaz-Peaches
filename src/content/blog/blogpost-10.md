@@ -4,6 +4,7 @@ pubDate: "2025-10-16"
 author: Marina Lopez
 tags:
   - "reencounter"
+  - let's cross paths? 
 imgUrl: "src/assets/paisaje.jpg"
 imgUrlHover: "src/assets/recuerdos.jpg"
 description: Hello, stranger 
