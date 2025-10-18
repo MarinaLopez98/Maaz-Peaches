@@ -5,8 +5,8 @@ author: Marina Lopez
 tags:
   - "¡Si no puedes avanzar, limítate a rodar!"
   - Esta de aquí se presenta
-imgUrl: ../../assets/peachfirma.jpg
-imgUrlHover: ../../assets/rosafirma.jpg
+imgUrl: src/assets/juntitas.jpg
+imgUrlHover: src/assets/rosafirma.jpg
 description: "Diario de un ventilador."
 ---
 ## Blog para desahogarme cuando los tiempos sean difíciles.
