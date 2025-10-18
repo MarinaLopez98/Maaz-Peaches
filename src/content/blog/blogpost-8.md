@@ -14,7 +14,7 @@ description: No supe ver tu necesidad, tus ganas de huir, de echar a volar. La v
 Me someto.
 Y si una no es suficiente,
 una y mil veces.
-Y Dios, a quien sea, a ti.  
+A Dios, a quien sea, a ti.  
 
 No soy alguien sumiso, ni lo quiero ser,
 pero es el deseo de que sepas
