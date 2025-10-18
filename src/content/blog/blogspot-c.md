@@ -1,5 +1,5 @@
 ---
-title: "Inner strength" 
+title: "Verdadera fuerza" 
 pubDate: '2025-10-18'
 author: Marina Lopez
 tags:
