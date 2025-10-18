@@ -14,5 +14,4 @@ description: Hello, stranger
 
 ---
 
-
 ![Ilustración Peach](src/assets/Peach.jpg)
