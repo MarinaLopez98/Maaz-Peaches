@@ -6,7 +6,7 @@ tags:
   - "reencounter"
   - let's cross paths? 
 imgUrl: "src/assets/gy"
-imgUrlHover: "src/assets/recuerdos.jpg"
+imgUrlHover: "src/assets/Panda 2.jpg"
 description: Hello, stranger 
 ---
 
