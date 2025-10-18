@@ -3,10 +3,10 @@ title: "Impensable"
 pubDate: '2025-10-18'
 author: Marina Lopez
 tags:
-  - "¡Si no puedes avanzar, limítate a rodar!"
-  - Esta de aquí se presenta
-imgUrl: src/assets/juntitas.jpg
-imgUrlHover: src/assets/Matcha.jpg
+  - "depertar"
+  - "en amabilidad"
+imgUrl: "src/assets/juntitas.jpg"
+imgUrlHover: "src/assets/Matcha.jpg"
 description: "Desconcierto."
 ---
 ## Blog para desahogarme cuando los tiempos sean difíciles.
