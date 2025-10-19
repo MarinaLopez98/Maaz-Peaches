@@ -22,7 +22,7 @@ How do you carry that guilt? How do you avoid it? What could you have done diffe
 
 And how can the other person let go of the resentment, after having used your words to mutilate their sense of self? As if before you, they were nothing. When if that were true, you never would have chosen them in the first place.
 
-But time passes, perspectives shift, and suddenly you realize you’ve unknowingly reinforced that pain without ever meaning to
+But time passes, perspectives shift, and suddenly you realize you’ve unknowingly reinforced that pain without ever meaning to.
 
 ---
 
