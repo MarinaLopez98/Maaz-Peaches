@@ -21,7 +21,7 @@ el que llena, el que enseña a amar.
 
 Ojalá se valore cuando llega,
 ojalá todos lo puedan reconocer.
-Solo pena siento por quien no lo tenga,
+Solo pena siento por quien lo tenga y no lo sepa,
 por quien no sepa lo que es querer.  
 
 ---
