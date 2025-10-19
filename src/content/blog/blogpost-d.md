@@ -1,17 +1,28 @@
 ---
-title: "¡Hola, caracola!" 
-pubDate: '2025-10-08'
+title: "Pena, qué penita, ay, qué pena" 
+pubDate: '2025-10-19'
 author: Marina Lopez
 tags:
-  - "¡Si no puedes avanzar, limítate a rodar!"
-  - Esta de aquí se presenta
+  - ¿Tan difícil es?
 imgUrl: src/assets/flower symbiosis.jpg
-imgUrlHover: ../../assets/rosafirma.jpg
-description: "Diario de un ventilador."
+imgUrlHover: src/assets/flowers twins.jpg
+description: "Las mentiras del corazón."
 ---
-## Blog para desahogarme cuando los tiempos sean difíciles.
+## Emociones
+A flor de piel me cosquillean los adentros,
+que hace tiempo se marchitaron ya.
+Una compañía que al alma da consuelo,
+un amor puro, sencillo, sin disfraz.  
 
-A veces será español, otras inglés... ¡Quién sabe! c: Mantiene el dueño que montó el trabajo inicial: Maaz-Selia. Hoy es mi primer día intentando continuarlo y, la verdad, es muuuuy difícil... ¡Maaz, te haré sentir orgulloso! También veréis arte de personas tan especiales como mi Matcha, que hace unas ilustraciones preciosas y emotivas... Por ejemplo, la Peach dibujada por ella de este post no rueda, es mágica. ¡Una maho shojo! Alguien podría preguntarse, y entonces en qué colaboro yo... ¡Bueno, pues no sé muy bien! Escribir, quejarme y rodar supongo Ü. ¡Adióóós!"
+Amor sin sombras, ni esquinas sin estrellas,
+amor que vive, que duele y hace llorar.
+Ese es el amor que yo deseo,
+el que llena, el que enseña a amar.  
+
+Ojalá se valore cuando llega,
+ojalá todos lo puedan reconocer.
+Solo pena siento por quien no lo tenga,
+por quien no sepa lo que es querer.  
 
 ---
 
