@@ -1,5 +1,5 @@
 ---
-title: "Butter Chicken" 
+title: "Butter Chicken"
 pubDate: '2025-10-20'
 author: Jordi Lopez
 tags:
@@ -12,7 +12,7 @@ description: "Will it be back?"
 ## ¿Volverá?
 
 Los tiempos aquellos no volverán, como todo,  
-todo aquello no volverá.  
+todo aquello no volverá.   
 Aquello fue una aventura, nada,  
 nada, nada más.  
 
