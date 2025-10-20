@@ -6,7 +6,7 @@ tags:
   - "Favorite food"
   - "Favorite person"
 imgUrl: src/assets/together.jpg
-imgUrlHover: src/assets/learn.jpg
+imgUrlHover: src/assets/learn to remember.jpg
 description: "Will it be back?"
 ---
 ## ¿Volverá?
