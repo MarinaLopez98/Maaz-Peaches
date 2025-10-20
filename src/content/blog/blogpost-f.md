@@ -6,12 +6,34 @@ tags:
   - "Favorite food"
   - "Favorite person"
 imgUrl: src/assets/together.jpg
-imgUrlHover: ../../assets/rosafirma.jpg
-description: "Diario de un ventilador."
+imgUrlHover: src/assets/learn.jpg
+description: "Will it be back?"
 ---
-## Blog para desahogarme cuando los tiempos sean difíciles.
+## ¿Volverá?
 
-A veces será español, otras inglés... ¡Quién sabe! c: Mantiene el dueño que montó el trabajo inicial: Maaz-Selia. Hoy es mi primer día intentando continuarlo y, la verdad, es muuuuy difícil... ¡Maaz, te haré sentir orgulloso! También veréis arte de personas tan especiales como mi Matcha, que hace unas ilustraciones preciosas y emotivas... Por ejemplo, la Peach dibujada por ella de este post no rueda, es mágica. ¡Una maho shojo! Alguien podría preguntarse, y entonces en qué colaboro yo... ¡Bueno, pues no sé muy bien! Escribir, quejarme y rodar supongo Ü. ¡Adióóós!"
+Los tiempos aquellos no volverán, como todo,  
+todo aquello no volverá.  
+Aquello fue una aventura, nada,  
+nada, nada más.  
+
+Todo fue solo aquello, pero nada más,  
+Yo quise aquello pero no volverá.  
+Todo aquello fue un resplandor pero nada más.  
+
+¡YO!, quise aquello con amor de verdad,  
+pero todo aquello pasó ya.  
+Triste ventura con mi ingenuidad, nada más,  
+pero aquel tiempo no volverá.  
+
+Esto fue lo que fue pero pasó ya,  
+y a mí me gustaría volver el tiempo atrás.  
+Pero aquello pasó y no volverá.  
+
+El tiempo va evolucionando  
+como una cuenta atrás, pero nada más.  
+Aquellos tiempos, ¿...no volverán?  
+
+FIN
 
 ---
 
