@@ -5,7 +5,7 @@ author: Jordi Lopez
 tags:
   - "Favorite food"
   - "Favorite person"
-imgUrl: ../../assets/peachfirma.jpg
+imgUrl: src/assets/together.jpg
 imgUrlHover: ../../assets/rosafirma.jpg
 description: "Diario de un ventilador."
 ---
