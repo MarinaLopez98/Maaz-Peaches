@@ -7,7 +7,7 @@ tags:
   - Bad aftertaste
 imgUrl: ../../assets/Annabel.jpg
 imgUrlHover: ../../assets/past.jpg
-description: "Un poema inspirado en Annabel Lee de Edgar Allan Poe."
+description: "Un poema inspirado en Annabel Lee de Edgar Allan Poe. Art by Pantovola."
 ---
 
 ## Sweet dreams, my Annabel Lee
