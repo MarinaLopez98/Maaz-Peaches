@@ -5,7 +5,7 @@ author: Rolling Peaches
 tags:
   - Sweet dreams
   - Bad aftertaste
-imgUrl: src/assets/abigail.jpg
+imgUrl: src/assets/abi.jpg
 imgUrlHover: src/assets/artbypantolova.jpg
 description: "Un poema inspirado en Annabel Lee de Edgar Allan Poe. Art by Abigail Larson and Pantovola respectively."
 ---
