@@ -6,8 +6,8 @@ tags:
   - "Favorite food"
   - "Favorite person"
 imgUrl: src/assets/together.jpg
-imgUrlHover: src/assets/de251ef1816ad62f827ede6bcb224534.jpg
-description: "Will it be back?". Imagen sin firmar gracias a Caroline Frumento. 
+imgUrlHover: src/assets/cf3b88028ee1414a4d8070c030a19fb1.jpg
+description: "Will it be back?". 
 ---
 ## ¿Volverá?
 
