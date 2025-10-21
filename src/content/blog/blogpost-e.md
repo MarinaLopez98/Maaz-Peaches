@@ -5,7 +5,7 @@ author: Marina Lopez
 tags:
   - "Many questions"
   - No answers
-imgUrl: src/assets/sleeping angel.jpg
+imgUrl: src/assets/a tablet.jpg
 imgUrlHover: src/assets/protect to death.jpg
 description: "Please help."
 ---
