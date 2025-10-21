@@ -6,7 +6,7 @@ tags:
   - Sweet dreams
   - Bad aftertaste
 imgUrl: src/assets/artbyabigaillarson.jpg
-imgUrlHover: src/assets/art by pantovola.jpg
+imgUrlHover: src/assets/artbypantolova.jpg
 description: "Un poema inspirado en Annabel Lee de Edgar Allan Poe. Art by Abigail Larson and Pantovola respectively."
 ---
 
