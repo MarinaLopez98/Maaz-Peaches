@@ -1,7 +1,7 @@
 ---
-title: "Butter Chicken"
-pubDate: '2025-10-20'
-author: Jordi Lopez
+title:"Butter Chicken"
+pubDate:'2025-10-20'
+author:Jordi Lopez
 tags:
   - "Favorite food"
   - "Favorite person"
