@@ -5,7 +5,7 @@ author: Marina Lopez
 tags:
   - ¿Tan difícil es?
 imgUrl: src/assets/flower symbiosis.jpg
-imgUrlHover: src/assets/flowers twins.jpg
+imgUrlHover: src/assets/twin flowers.jpg
 description: "Las mentiras del corazón."
 ---
 ## Emociones
