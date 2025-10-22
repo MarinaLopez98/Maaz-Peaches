@@ -24,6 +24,3 @@ es uno de los mejores conductos aliviantes de todo mal del corazón, se dice.
 **Si alguna vez os sentís así, recordad, seguid rodando.  
 Un saludo,  
 Peach.**
-
-
-![Ilustración Peach](src/assets/Peach.jpg)

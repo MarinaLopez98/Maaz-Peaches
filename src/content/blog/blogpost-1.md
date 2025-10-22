@@ -20,6 +20,3 @@ Alguien podría preguntarse, y entonces en qué colaboro yo... ¡Bueno, pues no 
 **Si alguna vez os sentís así, recordad, seguid rodando.  
 Un saludo,  
 Peach.**
-
-
-![Ilustración Peach](src/assets/Peach.jpg)
