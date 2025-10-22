@@ -5,7 +5,7 @@ import Layout from '@layouts/Default.astro';
 import { Card } from '@eliancodes/brutal-ui';
 import BuyMeCoffee from '@components/generic/BuyMeCoffee.astro';
 import { Image } from 'astro:assets';
-import peachImage from '@assets/Peach.jpg';
+import peachImage from '../../assets/Peach.jpg';
 
 export async function getStaticPaths() {
   const blogEntries = await getCollection('blog');
