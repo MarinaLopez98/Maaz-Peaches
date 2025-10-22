@@ -45,6 +45,19 @@ const { title, imgAlt, imgSrc, imgSrcHover, description } = Astro.props;
     cursor: pointer;
   }
   
+  /* Diseño móvil */
+  @media (max-width: 768px) {
+    .image-swap-container {
+      height: 24rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .image-swap-container {
+      height: 20rem;
+    }
+  }
+  
   .image-front, .image-back {
     position: absolute;
     top: 0;
