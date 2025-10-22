@@ -1,6 +1,6 @@
 
 ---
-title: "Es un <em>hasta luego</em>." 
+title: "Es un hasta luego." 
 pubDate: '2025-10-22'
 author: Marina Lopez
 tags:
