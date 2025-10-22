@@ -13,7 +13,7 @@ description: "Diario de un ventilador."
 
 A veces será español, otras inglés... ¡Quién sabe! c: Mantiene el dueño que montó el trabajo inicial: Maaz-Selia. Hoy es mi primer día intentando continuarlo y, la verdad, es muuuuy difícil... ¡Maaz, te haré sentir orgulloso! También veréis arte de personas tan especiales como mi Matcha, que hace unas ilustraciones preciosas y emotivas... Por ejemplo, la Peach dibujada por ella de este post no rueda, es mágica. ¡Una maho shojo! Algunas de ellas no me pertenecen y son propiedad de sus respectivos autores. Se utilizan únicamente con fines ilustrativos.
 
-Alguien podría preguntarse, y entonces en qué colaboro yo... ¡Bueno, pues no sé muy bien! Escribir, quejarme y rodar supongo Ü. ¡Adióóós!"
+Alguien podría preguntarse, y entonces en qué colaboro yo... ¡Bueno, pues no sé muy bien! Escribir, quejarme y rodar supongo Ü. ¡Adióóós!
 
 ---
 
