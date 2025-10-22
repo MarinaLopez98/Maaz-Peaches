@@ -1,7 +1,7 @@
 
 ---
-title: "Es un "hasta luego"." 
-pubDate: '2025-10-08'
+title: "Es un _hasta luego_." 
+pubDate: '2025-10-22'
 author: Marina Lopez
 tags:
   - "Negro"
