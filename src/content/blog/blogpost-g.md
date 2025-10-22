@@ -4,8 +4,8 @@ title: "Es un "hasta luego"."
 pubDate: '2025-10-08'
 author: Marina Lopez
 tags:
-  - "¡Si no puedes avanzar, limítate a rodar!"
-  - Esta de aquí se presenta
+  - "Negro"
+  - Y un agujero
 imgUrl: src/assets/blackcolour.jpg
 imgUrlHover: src/assets/blackcolour.jpg
 description: "Un adiós y mil terrores."
