@@ -1,4 +1,6 @@
 ---
+import BuyMeCoffee from '@components/generic/BuyMeCoffee.astro';
+
 interface Props {
   content: any;
 }
@@ -13,5 +15,8 @@ const { content } = Astro.props;
   </p-->
   <slot />
   <!--p class='text-slate'>Written by {content.author}</p-->
+  
+  <BuyMeCoffee username="maazpeaches" />
+  
   <a href='/Maaz-Peaches/' title='Back to blog'>&larr; Back to home</a>
 </article>

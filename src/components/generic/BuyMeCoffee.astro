@@ -1,0 +1,58 @@
+---
+interface Props {
+  username?: string;
+}
+
+const { username = 'maazpeaches' } = Astro.props;
+---
+
+<div class="kofi-container">
+  <a 
+    href={`https://ko-fi.com/${username}`} 
+    target="_blank"
+    rel="noopener noreferrer"
+    class="kofi-button"
+  >
+    <span class="kofi-icon">☕</span>
+    <span class="kofi-text">Support me on Ko-fi</span>
+  </a>
+</div>
+
+<style>
+  .kofi-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  
+  .kofi-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1.25rem;
+    background: #ffffff;
+    color: #434B57;
+    border: 2px solid #434B57;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.2s ease;
+    box-shadow: 2px 2px 0px #434B57;
+  }
+  
+  .kofi-button:hover {
+    background: #FF5E5B;
+    color: #ffffff;
+    border-color: #FF5E5B;
+    box-shadow: 3px 3px 0px #434B57;
+  }
+  
+  .kofi-icon {
+    font-size: 1.25rem;
+  }
+  
+  .kofi-text {
+    font-size: 0.9rem;
+  }
+</style>
