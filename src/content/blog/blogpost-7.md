@@ -16,3 +16,7 @@ Aquellos sueños de independencia, sueños de amor... Ojalá que mi conciencia n
 **Si alguna vez os sentís así, recordad, seguid rodando.  
 Un saludo,  
 Peach.**
+
+---
+
+![Ilustración Peach](../../assets/Peach.jpg)

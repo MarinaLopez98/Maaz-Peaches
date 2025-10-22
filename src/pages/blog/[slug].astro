@@ -4,8 +4,6 @@ import type { CollectionEntry } from 'astro:content';
 import Layout from '@layouts/Default.astro';
 import { Card } from '@eliancodes/brutal-ui';
 import BuyMeCoffee from '@components/generic/BuyMeCoffee.astro';
-import { Image } from 'astro:assets';
-import peachImage from '../../assets/Peach.jpg';
 
 export async function getStaticPaths() {
   const blogEntries = await getCollection('blog');
@@ -47,17 +45,6 @@ const pubDate = new Date(blogpost.data.pubDate);
         </div>
         
         <BuyMeCoffee username="rollingpeaches" />
-        
-        <div class='flex justify-center mt-6'>
-          <Image 
-            src={peachImage} 
-            alt='Ilustración Peach' 
-            class='rounded-lg border-2 border-black shadow-lg'
-            style='max-width: 300px; width: 100%;'
-            width={300}
-            height={300}
-          />
-        </div>
         
       </Card>
     </article>

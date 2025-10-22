@@ -41,3 +41,7 @@ el universo entero conspira para que pueda realizar su sueño._
 **Si alguna vez os sentís así, recordad, seguid rodando.  
 Un saludo,  
 Peach.**
+
+---
+
+![Ilustración Peach](../../assets/Peach.jpg)
