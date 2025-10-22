@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import Layout from '@layouts/Default.astro';
 import { Card } from '@eliancodes/brutal-ui';
+import BuyMeCoffee from '@components/generic/BuyMeCoffee.astro';
 
 export async function getStaticPaths() {
   const blogEntries = await getCollection('blog');
@@ -42,6 +43,9 @@ const pubDate = new Date(blogpost.data.pubDate);
         <div class='prose prose-lg max-w-none poppins'>
           <Content />
         </div>
+        
+        <BuyMeCoffee username="rollingpeaches" />
+        
       </Card>
     </article>
   </main>
