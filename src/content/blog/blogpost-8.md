@@ -5,8 +5,8 @@ author: Marina Lopez
 tags:
   - "no supe ver"
   - "tu necesidad"
-imgUrl: "src/assets/killing butterflies.jpg"
-imgUrlHover: "src/assets/Just try no matter how.jpg"
+imgUrl: "../../assets/killing butterflies.jpg"
+imgUrlHover: "../../assets/Just try no matter how.jpg"
 description: No supe ver tu necesidad, tus ganas de huir, de echar a volar. La vida es así, y así, te perdí.  
 ---
 
@@ -44,4 +44,4 @@ Peach.**
 
 ---
 
-![Ilustración Peach](src/assets/Peach.jpg)
+![Ilustración Peach](../../assets/Peach.jpg)

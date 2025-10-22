@@ -5,8 +5,8 @@ author: Marina Lopez
 tags:
   - "los sueños"
   - "sueños son"
-imgUrl: "src/assets/mundo paralelo.jpg"
-imgUrlHover: "src/assets/el despertar.jpg"
+imgUrl: "../../assets/mundo paralelo.jpg"
+imgUrlHover: "../../assets/el despertar.jpg"
 description: Hoy el amanecer era más brillante. Como si quisiera decirme que todo va a ir bien. Antes de poder disfrutar de la sensación de un día sonriente, me di cuenta de que solo habían sido sueños, sueños que ya pasaron. La conciencia al despertar desgraciadamente volvía a ser mía. 
 ---
 
@@ -19,4 +19,4 @@ Peach.**
 
 ---
 
-![Ilustración Peach](src/assets/Peach.jpg)
+![Ilustración Peach](../../assets/Peach.jpg)
