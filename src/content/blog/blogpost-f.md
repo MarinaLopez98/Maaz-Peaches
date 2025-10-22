@@ -40,6 +40,3 @@ FIN
 **Si alguna vez os sentís así, recordad, seguid rodando.  
 Un saludo,  
 Peach.**
-
-
-![Ilustración Peach](../../assets/Peach.jpg)

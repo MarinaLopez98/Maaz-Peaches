@@ -29,6 +29,3 @@ But time passes, perspectives shift, and suddenly you realize you've unknowingly
 **Si alguna vez os sentís así, recordad, seguid rodando.  
 Un saludo,  
 Peach.**
-
-
-![Ilustración Peach](../../assets/Peach.jpg)
