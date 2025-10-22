@@ -44,12 +44,18 @@ const { title, description, ogImage } = Astro.props;
   <meta property='twitter:description' content={description} />
   <meta property='twitter:image' content={ogImage} />
 
+  <meta property='LinkedIn:card' content='summary_large_image' />
+  <meta property='LinkedIn:url' content={canonicalURL} />
+  <meta property='LinkedIn:title' content={title} />
+  <meta property='LinkedIn:description' content={description} />
+  <meta property='LinkedIn:image' content={ogImage} />
+
   <link rel='canonical' href={canonicalURL} />
   <link rel='icon' type='image/svg' href='/Maaz-Peaches/favicon.svg' />
 
   <title>Rolling peaches{title}</title>
 
   <ViewTransitions />
-
+    
   <slot />
 </head>

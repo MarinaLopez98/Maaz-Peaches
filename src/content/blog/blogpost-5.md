@@ -7,7 +7,7 @@ tags:
   - A lie
 imgUrl: "../../assets/Nostalgia and pain.jpg"
 imgUrlHover: "../../assets/flying in the universe.jpg"
-description: "Vacío."
+description: "El vacío."
 ---
 
 ## Dónde quedaron los sueños
@@ -41,7 +41,10 @@ Y espera, mientras ciega
 Se repite, te quiero,   
 _te quiero._   
 Te quiero.   
+
 ---
+![Ilustración Peach](src/assets/Peach.jpg)
+
 
 **Si alguna vez os sentís así, recordad, seguid rodando.  
 Un saludo,  

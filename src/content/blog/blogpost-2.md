@@ -1,13 +1,13 @@
 ---
-title: "Sweet dreams, my Annabel Lee"
+title: "Sweet dreams, my Annabel Lee" 
 pubDate: '2025-10-09'
 author: Rolling Peaches
 tags:
   - Sweet dreams
   - Bad aftertaste
-imgUrl: ../../assets/Annabel.jpg
-imgUrlHover: ../../assets/past.jpg
-description: "Un poema inspirado en Annabel Lee de Edgar Allan Poe."
+imgUrl: src/assets/ab.jpg
+imgUrlHover: src/assets/artbypantolova.jpg
+description: "Un poema inspirado en Annabel Lee de Edgar Allan Poe. Art by Abigail Larson and Pantovola respectively."
 ---
 
 ## Sweet dreams, my Annabel Lee
@@ -34,3 +34,4 @@ after thee.
 **Si alguna vez os sentís así, recordad, seguid rodando.  
 Un saludo,  
 Peach.**
+![Ilustración Peach](src/assets/Peach.jpg)
