@@ -386,7 +386,29 @@
     const savedComments = localStorage.getItem(`comments_${pageSlug}`);
     
     if (savedComments) {
-      const comments: Comment[] = JSON.parse(savedComments);
+      let comments = JSON.parse(savedComments);
+      
+      // Migrar comentarios antiguos al nuevo formato
+      comments = comments.map((comment: any, index: number) => {
+        if (!comment.id) {
+          return {
+            id: `migrated-${Date.now()}-${index}`,
+            name: comment.name || 'Anónimo',
+            text: comment.text || '',
+            date: comment.date || new Date().toISOString(),
+            replies: []
+          };
+        }
+        // Asegurar que tiene el campo replies
+        if (!comment.replies) {
+          comment.replies = [];
+        }
+        return comment;
+      });
+      
+      // Guardar la versión migrada
+      localStorage.setItem(`comments_${pageSlug}`, JSON.stringify(comments));
+      
       if (comments.length > 0) {
         commentsList.innerHTML = '';
         comments.forEach((comment: Comment) => {
