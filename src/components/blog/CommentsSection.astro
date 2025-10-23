@@ -9,11 +9,10 @@
   </div>
 
   <div class="comment-form-container">
-    <form class="comment-form" id="commentForm" action="https://api.web3forms.com/submit" method="POST">
+    <form class="comment-form" id="commentForm">
       <input type="hidden" name="access_key" value="ac372efb-3a75-42da-9aa0-a90846659aa4">
       <input type="hidden" name="subject" value="💬 Nuevo comentario en el blog">
       <input type="hidden" name="from_name" value="Blog Maaz-Peaches">
-      <input type="hidden" name="redirect" value="false">
       <input type="hidden" name="page_url" id="pageUrlInput">
       <input type="checkbox" name="botcheck" style="display: none;">
       
@@ -330,7 +329,7 @@
 
       try {
         // Enviar a Web3Forms
-        const response = await fetch(commentForm.action, {
+        const response = await fetch('https://api.web3forms.com/submit', {
           method: 'POST',
           body: formData,
           headers: {
