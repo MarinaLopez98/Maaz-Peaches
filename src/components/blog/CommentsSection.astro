@@ -9,9 +9,12 @@
   </div>
 
   <div class="comment-form-container">
-    <form class="comment-form" id="commentForm" action="https://formspree.io/f/marinalo.lm644@gmail.com" method="POST">
-      <input type="hidden" name="_subject" value="Nuevo comentario en el blog" />
-      <input type="hidden" name="page_url" id="pageUrlInput" />
+    <form class="comment-form" id="commentForm" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="ac372efb-3a75-42da-9aa0-a90846659aa4">
+      <input type="hidden" name="subject" value="💬 Nuevo comentario en el blog">
+      <input type="hidden" name="from_name" value="Blog Maaz-Peaches">
+      <input type="hidden" name="page_url" id="pageUrlInput">
+      <input type="checkbox" name="botcheck" style="display: none;">
       
       <div class="form-group">
         <label for="name">Nombre</label>
@@ -325,7 +328,7 @@
       submitButton.innerHTML = '<span class="button-text">Enviando...</span>';
 
       try {
-        // Enviar a Formspree
+        // Enviar a Web3Forms
         const response = await fetch(commentForm.action, {
           method: 'POST',
           body: formData,
@@ -334,7 +337,9 @@
           }
         });
 
-        if (response.ok) {
+        const result = await response.json();
+
+        if (response.ok && result.success) {
           // Guardar en localStorage (por página)
           const pageSlug = window.location.pathname;
           const savedComments = localStorage.getItem(`comments_${pageSlug}`);

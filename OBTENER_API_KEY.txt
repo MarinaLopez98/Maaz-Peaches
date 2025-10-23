@@ -1,0 +1,16 @@
+Pasos para obtener tu API Key de Web3Forms (2 minutos):
+
+1. Ve a: https://web3forms.com/#start
+
+2. Ingresa tu email: marinalo.lm644@gmail.com
+
+3. Haz clic en "Get Access Key"
+
+4. Revisa tu email marinalo.lm644@gmail.com
+
+5. Abre el email de Web3Forms y COPIA la API key que te enviaron
+   (es una cadena larga como: a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6)
+
+6. PÉGAME LA API KEY aquí en el chat
+
+Una vez que me la des, actualizo el código y listo.
