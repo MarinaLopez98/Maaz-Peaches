@@ -1,0 +1,51 @@
+🎯 PRUEBA SIMPLE DE COMENTARIOS (Sin usar consola)
+===================================================
+
+PASO 1: Limpiar el Navegador
+-----------------------------
+1. Cierra TODAS las pestañas de tu blog
+2. Cierra el navegador completamente
+3. Vuelve a abrir el navegador
+
+PASO 2: Entrar al Blog con Caché Limpio
+-----------------------------------------
+1. Abre el navegador
+2. Ve a: https://marinalopez98.github.io/Maaz-Peaches/blog/blogpost-1
+3. Presiona Ctrl + F5 (esto recarga limpiando caché)
+
+PASO 3: Intentar Comentar
+--------------------------
+1. Baja hasta ver la sección "Comentarios"
+2. Escribe tu nombre: "Prueba"
+3. Escribe un comentario: "Hola mundo"
+4. Haz clic en "Enviar comentario"
+
+¿QUÉ DEBERÍA PASAR?
+-------------------
+✅ El botón debería decir "Enviando..." por un momento
+✅ El comentario debería aparecer debajo del formulario
+✅ El formulario debería limpiarse (quedar vacío)
+
+¿QUÉ HACER SI NO FUNCIONA?
+---------------------------
+Prueba esto:
+
+OPCIÓN A - Navegador Privado/Incógnito:
+1. Abre una ventana de incógnito (Ctrl + Shift + N en Chrome/Edge)
+2. Ve a tu blog
+3. Intenta comentar
+
+OPCIÓN B - Otro Navegador:
+1. Si usas Chrome, prueba con Edge (o viceversa)
+2. Ve a tu blog
+3. Intenta comentar
+
+DESPUÉS DE PROBAR:
+------------------
+Dime exactamente qué pasó:
+1. ¿El botón cambió a "Enviando..."? (Sí/No)
+2. ¿Apareció el comentario? (Sí/No)
+3. ¿El formulario se limpió? (Sí/No)
+4. ¿Salió algún mensaje de error? (Sí/No)
+
+Con esa información sabré exactamente qué arreglar.

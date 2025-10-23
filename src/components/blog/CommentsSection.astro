@@ -690,5 +690,17 @@
   }
 
   // Cargar comentarios al cargar la página
+  console.log('🚀 Iniciando sistema de comentarios...');
+  console.log('📍 commentForm:', commentForm);
+  console.log('📍 commentsList:', commentsList);
+  
+  if (!commentForm) {
+    console.error('❌ No se encontró el formulario de comentarios');
+  }
+  if (!commentsList) {
+    console.error('❌ No se encontró el contenedor de comentarios');
+  }
+  
   loadComments();
+  console.log('✅ Sistema de comentarios iniciado');
 </script>
