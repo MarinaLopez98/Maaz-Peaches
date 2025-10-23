@@ -1,0 +1,50 @@
+🔍 GUÍA DE DEBUG PARA COMENTARIOS
+===================================
+
+PROBLEMA: No ves botones de "Responder" en los comentarios
+
+SOLUCIÓN PASO A PASO:
+--------------------
+
+1. 🌐 LIMPIAR TODO
+   - Cierra el navegador completamente
+   - Abre de nuevo
+   - Ve a: https://marinalopez98.github.io/Maaz-Peaches/blog/blogpost-1
+   - Presiona Ctrl + Shift + R
+
+2. 🔍 ABRIR CONSOLA
+   - Presiona F12 (tecla arriba del teclado)
+   - Clic en pestaña "Console" (o "Consola")
+
+3. 📝 DEJAR UN COMENTARIO NUEVO
+   - Escribe algo en el formulario
+   - Haz clic en "Enviar comentario"
+
+4. 👀 BUSCAR ESTOS MENSAJES EN CONSOLA:
+   ✅ "🚀 Iniciando sistema de comentarios..."
+   ✅ "📝 Buscando elementos..."
+   ✅ "✅ Elementos encontrados correctamente"
+   ✅ "🔥 Formulario enviado!"
+   ✅ "💾 Guardando comentario"
+   ✅ "✅ Comentario agregado al DOM"
+   ✅ "🔧 HTML generado para comentario"
+   ✅ "📝 Formulario de respuesta incluido: true"
+
+5. 🎯 VERIFICAR EL COMENTARIO
+   - El comentario debería aparecer ABAJO del formulario
+   - Deberías ver el botón "Responder" en cada comentario
+
+6. 🧪 PROBAR RESPUESTA
+   - Haz clic en "Responder" en cualquier comentario
+   - Debería aparecer un formulario pequeño debajo
+   - Escribe una respuesta y envíala
+
+¿QUÉ VER? En la consola (F12) busca los mensajes con ✅
+Si no ves ningún mensaje, el script no se está ejecutando.
+
+¿QUÉ HACER SI NO FUNCIONA?
+- Dime qué mensajes ves en la consola
+- Dime si aparece el comentario o no
+- Dime si ves el botón "Responder" o no
+
+¡Con esta info podré arreglarlo! 🔧
