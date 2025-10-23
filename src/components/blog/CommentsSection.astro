@@ -9,7 +9,10 @@
   </div>
 
   <div class="comment-form-container">
-    <form class="comment-form" id="commentForm">
+    <form class="comment-form" id="commentForm" action="https://formspree.io/f/marinalo.lm644@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="Nuevo comentario en el blog" />
+      <input type="hidden" name="page_url" id="pageUrlInput" />
+      
       <div class="form-group">
         <label for="name">Nombre</label>
         <input 
@@ -286,8 +289,14 @@
       .replace(/'/g, "&#039;");
   }
 
+  // Establecer la URL de la página en el campo oculto
+  const pageUrlInput = document.getElementById('pageUrlInput') as HTMLInputElement;
+  if (pageUrlInput) {
+    pageUrlInput.value = window.location.href;
+  }
+
   if (commentForm) {
-    commentForm.addEventListener('submit', (e) => {
+    commentForm.addEventListener('submit', async (e) => {
       e.preventDefault();
       
       const formData = new FormData(commentForm);
@@ -304,29 +313,61 @@
       const isAnonymous = !name || name.trim() === '';
       if (isAnonymous) {
         name = 'Anónimo';
+        formData.set('name', 'Anónimo');
       }
       
       const date = new Date().toISOString();
 
-      // Guardar en localStorage (por página)
-      const pageSlug = window.location.pathname;
-      const savedComments = localStorage.getItem(`comments_${pageSlug}`);
-      const comments = savedComments ? JSON.parse(savedComments) : [];
-      
-      comments.push({ name, text: comment, date });
-      localStorage.setItem(`comments_${pageSlug}`, JSON.stringify(comments));
+      // Deshabilitar el botón de envío mientras se procesa
+      const submitButton = commentForm.querySelector('button[type="submit"]') as HTMLButtonElement;
+      const originalButtonText = submitButton.innerHTML;
+      submitButton.disabled = true;
+      submitButton.innerHTML = '<span class="button-text">Enviando...</span>';
 
-      // Añadir comentario al DOM
-      addCommentToDOM(name, comment, date);
+      try {
+        // Enviar a Formspree
+        const response = await fetch(commentForm.action, {
+          method: 'POST',
+          body: formData,
+          headers: {
+            'Accept': 'application/json'
+          }
+        });
 
-      // Limpiar formulario
-      commentForm.reset();
-      
-      // Scroll suave al nuevo comentario
-      setTimeout(() => {
-        const lastComment = commentsList.lastElementChild;
-        lastComment?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-      }, 100);
+        if (response.ok) {
+          // Guardar en localStorage (por página)
+          const pageSlug = window.location.pathname;
+          const savedComments = localStorage.getItem(`comments_${pageSlug}`);
+          const comments = savedComments ? JSON.parse(savedComments) : [];
+          
+          comments.push({ name, text: comment, date });
+          localStorage.setItem(`comments_${pageSlug}`, JSON.stringify(comments));
+
+          // Añadir comentario al DOM
+          addCommentToDOM(name, comment, date);
+
+          // Limpiar formulario
+          commentForm.reset();
+          
+          // Mostrar mensaje de éxito
+          alert('¡Comentario enviado! Te he enviado una copia por email.');
+        } else {
+          alert('Hubo un problema al enviar el comentario. Por favor, inténtalo de nuevo.');
+        }
+      } catch (error) {
+        console.error('Error al enviar comentario:', error);
+        alert('Error de conexión. Por favor, verifica tu internet e inténtalo de nuevo.');
+      } finally {
+        // Restaurar el botón
+        submitButton.disabled = false;
+        submitButton.innerHTML = originalButtonText;
+        
+        // Scroll suave al nuevo comentario
+        setTimeout(() => {
+          const lastComment = commentsList.lastElementChild;
+          lastComment?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }, 100);
+      }
     });
   }
 
