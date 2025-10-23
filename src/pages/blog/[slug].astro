@@ -196,14 +196,17 @@ const pubDate = new Date(blogpost.data.pubDate);
           <span style="font-weight: 600; color: #d87ba7; font-family: 'Poppins', sans-serif; font-size: 0.95rem;">${escapeHtml(comentario.nombre)}</span>
           <span style="font-size: 0.8rem; color: #b89aa8; font-family: 'Poppins', sans-serif;">${fechaTexto}</span>
         </div>
-        <p style="color: #ff69b4; font-family: 'Poppins', sans-serif; font-size: 0.95rem; line-height: 1.6; margin: 0 0 0.75rem 0;">${escapeHtml(comentario.texto)}</p>
-        <button onclick="showReplyForm('${comentario.id}')" style="display: inline-flex; align-items: center; gap: 0.25rem; padding: 0.35rem 0.75rem; background: linear-gradient(135deg, #fef9fb 0%, #fff5f9 100%); color: #d87ba7; border: 1.5px solid #f5d4e6; border-radius: 0.5rem; font-size: 0.85rem; font-weight: 500; font-family: 'Poppins', sans-serif; cursor: pointer; transition: all 0.3s ease;">
+        <p style="color: #d87ba7; font-family: 'Poppins', sans-serif; font-size: 0.95rem; line-height: 1.6; margin: 0 0 0.75rem 0;">${escapeHtml(comentario.texto)}</p>
+        <button onclick="showReply('${comentario.id}')" style="display: inline-flex; align-items: center; gap: 0.25rem; padding: 0.35rem 0.75rem; background: linear-gradient(135deg, #fef9fb 0%, #fff5f9 100%); color: #d87ba7; border: 1.5px solid #f5d4e6; border-radius: 0.5rem; font-size: 0.85rem; font-weight: 500; font-family: 'Poppins', sans-serif; cursor: pointer; transition: all 0.3s ease;">
           <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="9 10 4 15 9 20"></polyline>
             <path d="M20 4v7a4 4 0 0 1-4 4H4"></path>
           </svg>
           Reply
         </button>
+        <div id="reply-${comentario.id}" style="margin-top: 0.75rem; display: none;">
+          <p style="color: #8a2be2; font-family: 'Poppins', sans-serif; font-size: 0.9rem; line-height: 1.5; margin: 0; font-style: italic;">Yes!</p>
+        </div>
       `;
 
       div.style.cssText = 'padding: 1.25rem; margin-bottom: 1rem; background: #ffffff; border: 2px solid #f5d4e6; border-radius: 1rem; transition: all 0.3s ease;';
@@ -255,4 +258,12 @@ const pubDate = new Date(blogpost.data.pubDate);
 
     console.log('Comments system ready');
   })();
+
+  // Global function for replies
+  window.showReply = function(commentId) {
+    const replyDiv = document.getElementById(`reply-${commentId}`);
+    if (replyDiv) {
+      replyDiv.style.display = replyDiv.style.display === 'none' ? 'block' : 'none';
+    }
+  };
 </script>
