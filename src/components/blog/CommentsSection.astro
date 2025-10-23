@@ -327,58 +327,46 @@
       submitButton.disabled = true;
       submitButton.innerHTML = '<span class="button-text">Enviando...</span>';
 
-      try {
-        // Enviar a Web3Forms
-        const response = await fetch('https://api.web3forms.com/submit', {
-          method: 'POST',
-          body: formData,
-          headers: {
-            'Accept': 'application/json'
-          }
-        });
+      // Guardar en localStorage (por página) PRIMERO
+      const pageSlug = window.location.pathname;
+      const savedComments = localStorage.getItem(`comments_${pageSlug}`);
+      const comments = savedComments ? JSON.parse(savedComments) : [];
+      
+      comments.push({ name, text: comment, date });
+      localStorage.setItem(`comments_${pageSlug}`, JSON.stringify(comments));
 
-        const result = await response.json();
-        console.log('Respuesta de Web3Forms:', result);
+      // Añadir comentario al DOM inmediatamente
+      addCommentToDOM(name, comment, date);
 
-        if (response.ok && result.success) {
-          // Guardar en localStorage (por página)
-          const pageSlug = window.location.pathname;
-          const savedComments = localStorage.getItem(`comments_${pageSlug}`);
-          const comments = savedComments ? JSON.parse(savedComments) : [];
-          
-          comments.push({ name, text: comment, date });
-          localStorage.setItem(`comments_${pageSlug}`, JSON.stringify(comments));
-
-          // Añadir comentario al DOM inmediatamente
-          addCommentToDOM(name, comment, date);
-
-          // Limpiar formulario
-          commentForm.reset();
-          
-          // Restaurar el botón
-          submitButton.disabled = false;
-          submitButton.innerHTML = originalButtonText;
-          
-          // Scroll suave al nuevo comentario
-          setTimeout(() => {
-            const lastComment = commentsList.lastElementChild;
-            if (lastComment) {
-              lastComment.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-            }
-          }, 100);
-          
-          console.log('¡Comentario enviado y mostrado correctamente!');
-        } else {
-          submitButton.disabled = false;
-          submitButton.innerHTML = originalButtonText;
-          alert('Hubo un problema al enviar el comentario. Por favor, inténtalo de nuevo.');
+      // Limpiar formulario
+      commentForm.reset();
+      
+      // Restaurar el botón
+      submitButton.disabled = false;
+      submitButton.innerHTML = originalButtonText;
+      
+      // Scroll suave al nuevo comentario
+      setTimeout(() => {
+        const lastComment = commentsList.lastElementChild;
+        if (lastComment) {
+          lastComment.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         }
-      } catch (error) {
-        console.error('Error al enviar comentario:', error);
-        submitButton.disabled = false;
-        submitButton.innerHTML = originalButtonText;
-        alert('Error de conexión. Por favor, verifica tu internet e inténtalo de nuevo.');
-      }
+      }, 100);
+
+      // Intentar enviar email en segundo plano (sin bloquear la UI)
+      fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      }).then(response => response.json())
+        .then(result => {
+          console.log('Email enviado correctamente:', result);
+        })
+        .catch(error => {
+          console.warn('No se pudo enviar el email, pero el comentario se guardó localmente:', error);
+        });
     });
   }
 
