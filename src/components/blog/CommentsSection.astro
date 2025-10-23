@@ -599,10 +599,13 @@
   if (commentForm) {
     commentForm.addEventListener('submit', async (e) => {
       e.preventDefault();
+      console.log('📝 Formulario enviado');
       
       const formData = new FormData(commentForm);
       let name = formData.get('name') as string;
       const comment = formData.get('comment') as string;
+      
+      console.log('Nombre:', name, 'Comentario:', comment);
       
       // Validar que el comentario no esté vacío
       if (!comment || comment.trim() === '') {
@@ -619,6 +622,7 @@
       
       const date = new Date().toISOString();
       const commentId = Date.now().toString();
+      console.log('💾 Guardando comentario con ID:', commentId);
 
       // Deshabilitar el botón de envío mientras se procesa
       const submitButton = commentForm.querySelector('button[type="submit"]') as HTMLButtonElement;
@@ -626,53 +630,62 @@
       submitButton.disabled = true;
       submitButton.innerHTML = '<span class="button-text">Enviando...</span>';
 
-      // Guardar en localStorage (por página) PRIMERO
-      const pageSlug = window.location.pathname;
-      const savedComments = localStorage.getItem(`comments_${pageSlug}`);
-      const comments: Comment[] = savedComments ? JSON.parse(savedComments) : [];
-      
-      const newComment: Comment = { 
-        id: commentId, 
-        name, 
-        text: comment, 
-        date,
-        replies: []
-      };
-      comments.push(newComment);
-      localStorage.setItem(`comments_${pageSlug}`, JSON.stringify(comments));
+      try {
+        // Guardar en localStorage (por página) PRIMERO
+        const pageSlug = window.location.pathname;
+        const savedComments = localStorage.getItem(`comments_${pageSlug}`);
+        const comments: Comment[] = savedComments ? JSON.parse(savedComments) : [];
+        
+        const newComment: Comment = { 
+          id: commentId, 
+          name, 
+          text: comment, 
+          date,
+          replies: []
+        };
+        comments.push(newComment);
+        localStorage.setItem(`comments_${pageSlug}`, JSON.stringify(comments));
+        console.log('✅ Comentario guardado en localStorage');
 
-      // Añadir comentario al DOM inmediatamente
-      addCommentToDOM(newComment);
+        // Añadir comentario al DOM inmediatamente
+        addCommentToDOM(newComment);
+        console.log('✅ Comentario agregado al DOM');
 
-      // Limpiar formulario
-      commentForm.reset();
-      
-      // Restaurar el botón
-      submitButton.disabled = false;
-      submitButton.innerHTML = originalButtonText;
-      
-      // Scroll suave al nuevo comentario
-      setTimeout(() => {
-        const lastComment = commentsList.lastElementChild;
-        if (lastComment) {
-          lastComment.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-        }
-      }, 100);
+        // Limpiar formulario
+        commentForm.reset();
+        
+        // Restaurar el botón
+        submitButton.disabled = false;
+        submitButton.innerHTML = originalButtonText;
+        
+        // Scroll suave al nuevo comentario
+        setTimeout(() => {
+          const lastComment = commentsList.lastElementChild;
+          if (lastComment) {
+            lastComment.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }
+        }, 100);
 
-      // Intentar enviar email en segundo plano (sin bloquear la UI)
-      fetch('https://api.web3forms.com/submit', {
-        method: 'POST',
-        body: formData,
-        headers: {
-          'Accept': 'application/json'
-        }
-      }).then(response => response.json())
-        .then(result => {
-          console.log('Email enviado correctamente:', result);
-        })
-        .catch(error => {
-          console.warn('No se pudo enviar el email, pero el comentario se guardó localmente:', error);
-        });
+        // Intentar enviar email en segundo plano (sin bloquear la UI)
+        fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          body: formData,
+          headers: {
+            'Accept': 'application/json'
+          }
+        }).then(response => response.json())
+          .then(result => {
+            console.log('📧 Email enviado correctamente:', result);
+          })
+          .catch(error => {
+            console.warn('⚠️ No se pudo enviar el email, pero el comentario se guardó localmente:', error);
+          });
+      } catch (error) {
+        console.error('❌ Error al procesar comentario:', error);
+        submitButton.disabled = false;
+        submitButton.innerHTML = originalButtonText;
+        alert('Hubo un error al guardar el comentario. Por favor, recarga la página e intenta de nuevo.');
+      }
     });
   }
 
