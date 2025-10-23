@@ -9,7 +9,12 @@
   </div>
 
   <div class="comment-form-container">
-    <form class="comment-form" id="commentForm">
+    <form class="comment-form" id="commentForm" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="ac372efb-3a75-42da-9aa0-a90846659aa4">
+      <input type="hidden" name="subject" value="💬 Nuevo comentario en el blog">
+      <input type="hidden" name="from_name" value="Blog Maaz-Peaches">
+      <input type="hidden" name="redirect" value="false">
+
       <div class="form-group">
         <label for="name">Nombre</label>
         <input 
@@ -248,47 +253,98 @@
 </style>
 
 <script>
-  // Funcionalidad básica para el formulario
-  const commentForm = document.getElementById('commentForm') as HTMLFormElement;
-  const commentsList = document.getElementById('commentsList') as HTMLElement;
+  console.log('🚀 Iniciando sistema de comentarios...');
 
-  // Cargar comentarios guardados del localStorage
-  function loadComments() {
-    const pageSlug = window.location.pathname;
-    const savedComments = localStorage.getItem(`comments_${pageSlug}`);
-    
-    if (savedComments) {
-      const comments = JSON.parse(savedComments);
-      if (comments.length > 0) {
-        commentsList.innerHTML = '';
-        comments.forEach((comment: any) => {
-          addCommentToDOM(comment.name, comment.text, comment.date);
-        });
+  // Función principal
+  function initComments() {
+    console.log('📝 Inicializando comentarios...');
+
+    const form = document.getElementById('commentForm');
+    const commentsList = document.getElementById('commentsList');
+
+    if (!form || !commentsList) {
+      console.error('❌ Elementos no encontrados');
+      return;
+    }
+
+    console.log('✅ Sistema listo');
+
+    // Cargar comentarios existentes
+    loadComments();
+
+    // Manejar envío del formulario
+    form.addEventListener('submit', function(e) {
+      console.log('🔥 Formulario enviado');
+
+      const nombre = document.getElementById('name')?.value?.trim() || 'Anónimo';
+      const texto = document.getElementById('comment')?.value?.trim();
+
+      if (!texto) {
+        alert('Por favor, escribe un comentario antes de enviar.');
+        return;
       }
+
+      const comentario = {
+        nombre: nombre,
+        texto: texto,
+        fecha: new Date().toISOString()
+      };
+
+      // Mostrar inmediatamente (localStorage)
+      showComment(comentario);
+      saveComment(comentario);
+      form.reset();
+
+      // Enviar por email en segundo plano
+      sendEmail(comentario);
+
+      console.log('✅ Comentario procesado');
+    });
+  }
+
+  function loadComments() {
+    const clave = 'comentarios_' + window.location.pathname;
+    const comentarios = JSON.parse(localStorage.getItem(clave) || '[]');
+
+    if (comentarios.length > 0) {
+      document.querySelector('.no-comments')?.remove();
+      comentarios.forEach(showComment);
     }
   }
 
-  function addCommentToDOM(name: string, text: string, date: string) {
-    const commentElement = document.createElement('div');
-    commentElement.className = 'comment-item';
-    commentElement.innerHTML = `
-      <div class="comment-header">
-        <span class="comment-author">${escapeHtml(name)}</span>
-        <span class="comment-date">${new Date(date).toLocaleDateString('es-ES', { 
-          year: 'numeric', 
-          month: 'short', 
-          day: 'numeric',
-          hour: '2-digit',
-          minute: '2-digit'
-        })}</span>
-      </div>
-      <p class="comment-text">${escapeHtml(text)}</p>
-    `;
-    commentsList.appendChild(commentElement);
+  function saveComment(comentario) {
+    const clave = 'comentarios_' + window.location.pathname;
+    const comentarios = JSON.parse(localStorage.getItem(clave) || '[]');
+    comentarios.push(comentario);
+    localStorage.setItem(clave, JSON.stringify(comentarios));
   }
 
-  function escapeHtml(unsafe: string) {
-    return unsafe
+  function showComment(comentario) {
+    const div = document.createElement('div');
+    div.className = 'comment-item';
+
+    const fecha = new Date(comentario.fecha);
+    const fechaTexto = fecha.toLocaleDateString('es-ES', {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit'
+    });
+
+    div.innerHTML = `
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; padding-bottom: 0.75rem; border-bottom: 1px solid #f5d4e6;">
+        <span style="font-weight: 600; color: #d87ba7; font-family: 'Poppins', sans-serif; font-size: 0.95rem;">${escapeHtml(comentario.nombre)}</span>
+        <span style="font-size: 0.8rem; color: #b89aa8; font-family: 'Poppins', sans-serif;">${fechaTexto}</span>
+      </div>
+      <p style="color: #9f7091; font-family: 'Poppins', sans-serif; font-size: 0.95rem; line-height: 1.6; margin: 0;">${escapeHtml(comentario.texto)}</p>
+    `;
+
+    document.getElementById('commentsList')?.appendChild(div);
+  }
+
+  function escapeHtml(text) {
+    return text
       .replace(/&/g, "&amp;")
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
@@ -296,56 +352,38 @@
       .replace(/'/g, "&#039;");
   }
 
-  if (commentForm) {
-    commentForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      
-      const formData = new FormData(commentForm);
-      let name = formData.get('name') as string;
-      const comment = formData.get('comment') as string;
-      
-      // Validar que el comentario no esté vacío
-      if (!comment || comment.trim() === '') {
-        alert('Por favor, escribe un comentario antes de enviar.');
-        return;
-      }
-      
-      // Si no hay nombre, usar "Anónimo"
-      const isAnonymous = !name || name.trim() === '';
-      if (isAnonymous) {
-        name = 'Anónimo';
-      }
-      
-      const date = new Date().toISOString();
+  function sendEmail(comentario) {
+    console.log('📧 Enviando email...');
 
-      // Guardar en localStorage (por página)
-      const pageSlug = window.location.pathname;
-      const savedComments = localStorage.getItem(`comments_${pageSlug}`);
-      const comments = savedComments ? JSON.parse(savedComments) : [];
-      
-      comments.push({ name, text: comment, date });
-      localStorage.setItem(`comments_${pageSlug}`, JSON.stringify(comments));
+    // Crear FormData para Web3Forms
+    const emailFormData = new FormData();
+    emailFormData.append('access_key', 'ac372efb-3a75-42da-9aa0-a90846659aa4');
+    emailFormData.append('subject', '💬 Nuevo comentario en el blog');
+    emailFormData.append('from_name', 'Blog Maaz-Peaches');
+    emailFormData.append('name', comentario.nombre);
+    emailFormData.append('comment', comentario.texto);
+    emailFormData.append('page_url', window.location.href);
+    emailFormData.append('redirect', 'false');
 
-      // Limpiar el mensaje de "no hay comentarios" si existe
-      const noComments = commentsList.querySelector('.no-comments');
-      if (noComments) {
-        noComments.remove();
-      }
-
-      // Añadir comentario al DOM
-      addCommentToDOM(name, comment, date);
-
-      // Limpiar formulario
-      commentForm.reset();
-      
-      // Scroll suave al nuevo comentario
-      setTimeout(() => {
-        const lastComment = commentsList.lastElementChild;
-        lastComment?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-      }, 100);
+    // Enviar en segundo plano sin bloquear
+    fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      body: emailFormData
+    })
+    .then(response => {
+      console.log('✅ Email enviado exitosamente');
+      return response.json();
+    })
+    .then(data => console.log('📨 Respuesta del servidor:', data))
+    .catch(error => {
+      console.warn('⚠️ Error al enviar email:', error);
     });
   }
 
-  // Cargar comentarios al cargar la página
-  loadComments();
+  // Iniciar cuando el DOM esté listo
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initComments);
+  } else {
+    initComments();
+  }
 </script>
