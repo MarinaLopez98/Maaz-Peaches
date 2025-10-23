@@ -217,8 +217,12 @@
   }
 </style>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
+<script is:inline>
+  (function() {
+    console.log('🎯 INICIANDO SCRIPT DE COMENTARIOS');
+    
+    function iniciar() {
+      console.log('Intentando iniciar...');
     console.log('✅ Script cargado');
     
     const form = document.getElementById('commentForm');
@@ -322,5 +326,13 @@
         body: datos
       }).catch(err => console.warn('Email no enviado:', err));
     }
-  });
+    }
+    
+    // Ejecutar cuando el DOM esté listo
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', iniciar);
+    } else {
+      iniciar();
+    }
+  })();
 </script>
