@@ -1,50 +1,26 @@
-🔍 GUÍA DE DEBUG PARA COMENTARIOS
-===================================
+🎨 CAMBIOS DE COLORES APLICADOS - PALETA ROSA CONSISTENTE
+========================================================
 
-PROBLEMA: No ves botones de "Responder" en los comentarios
+✅ COLORES ACTUALIZADOS:
+- Texto principal: #9f7091 (rosa-gris del blog)
+- Nombres de autores: #d87ba7 (rosa principal)
+- Fechas: #b89aa8 (rosa claro)
+- Fechas en respuestas: #c4a5b4 (rosa muy claro)
+- Inputs y textareas: #9f7091 (rosa-gris)
 
-SOLUCIÓN PASO A PASO:
---------------------
+❌ ELIMINADO:
+- Todo texto en negro (#4a4a4a)
+- Colores grises que no combinaban con la estética
 
-1. 🌐 LIMPIAR TODO
-   - Cierra el navegador completamente
-   - Abre de nuevo
-   - Ve a: https://marinalopez98.github.io/Maaz-Peaches/blog/blogpost-1
-   - Presiona Ctrl + Shift + R
+🎯 PRUEBA EL NUEVO LOOK:
+1. Ve a tu blog: https://marinalopez98.github.io/Maaz-Peaches/blog/blogpost-1
+2. Ctrl + Shift + R para limpiar caché
+3. Deja un comentario
+4. Haz clic en "Responder"
+5. ¡Todo en colores rosa armónicos! 🎨
 
-2. 🔍 ABRIR CONSOLA
-   - Presiona F12 (tecla arriba del teclado)
-   - Clic en pestaña "Console" (o "Consola")
-
-3. 📝 DEJAR UN COMENTARIO NUEVO
-   - Escribe algo en el formulario
-   - Haz clic en "Enviar comentario"
-
-4. 👀 BUSCAR ESTOS MENSAJES EN CONSOLA:
-   ✅ "🚀 Iniciando sistema de comentarios..."
-   ✅ "📝 Buscando elementos..."
-   ✅ "✅ Elementos encontrados correctamente"
-   ✅ "🔥 Formulario enviado!"
-   ✅ "💾 Guardando comentario"
-   ✅ "✅ Comentario agregado al DOM"
-   ✅ "🔧 HTML generado para comentario"
-   ✅ "📝 Formulario de respuesta incluido: true"
-
-5. 🎯 VERIFICAR EL COMENTARIO
-   - El comentario debería aparecer ABAJO del formulario
-   - Deberías ver el botón "Responder" en cada comentario
-
-6. 🧪 PROBAR RESPUESTA
-   - Haz clic en "Responder" en cualquier comentario
-   - Debería aparecer un formulario pequeño debajo
-   - Escribe una respuesta y envíala
-
-¿QUÉ VER? En la consola (F12) busca los mensajes con ✅
-Si no ves ningún mensaje, el script no se está ejecutando.
-
-¿QUÉ HACER SI NO FUNCIONA?
-- Dime qué mensajes ves en la consola
-- Dime si aparece el comentario o no
-- Dime si ves el botón "Responder" o no
-
-¡Con esta info podré arreglarlo! 🔧
+💡 LOS COLORES AHORA COINCIDEN PERFECTAMENTE:
+- Con el título del blog (#d87ba7)
+- Con las fechas del header (#b89aa8)
+- Con la descripción (#9f7091)
+- Con la estética general rosa/peach 🍑

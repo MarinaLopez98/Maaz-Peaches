@@ -1,20 +1,15 @@
 ---
-// Componente de comentarios SIMPLIFICADO
+// Componente de sección de comentarios estética
 ---
 
 <section class="comments-section">
   <div class="comments-header">
     <h3 class="comments-title">Comentarios</h3>
-    <p class="comments-subtitle">Si no te sientes escuchado, aquí tienes el espacio perfecto. No te escucharemos, pero ten por seguro que te leeré.</p>
+    <p class="comments-subtitle">Si no te sientes escuchado, aquí tienes el espacio perfecto. No te escucharemos, pero ten por seguro que te leeré</p>
   </div>
 
   <div class="comment-form-container">
     <form class="comment-form" id="commentForm">
-      <input type="hidden" name="access_key" value="ac372efb-3a75-42da-9aa0-a90846659aa4">
-      <input type="hidden" name="subject" value="💬 Nuevo comentario en el blog">
-      <input type="hidden" name="from_name" value="Blog Maaz-Peaches">
-      <input type="hidden" id="pageUrlInput">
-      
       <div class="form-group">
         <label for="name">Nombre</label>
         <input 
@@ -46,7 +41,9 @@
     </form>
   </div>
 
-  <div class="comments-list" id="commentsList"></div>
+  <div class="comments-list" id="commentsList">
+    <p class="no-comments">Sé el primero en comentar</p>
+  </div>
 </section>
 
 <style>
@@ -116,7 +113,7 @@
     font-size: 0.95rem;
     font-family: 'Poppins', sans-serif;
     background: #ffffff;
-    color: #4a4a4a;
+    color: #9f7091;
     transition: all 0.3s ease;
   }
 
@@ -125,6 +122,11 @@
     outline: none;
     border-color: #e8b4d4;
     box-shadow: 0 0 0 3px rgba(232, 180, 212, 0.15);
+  }
+
+  .form-group input::placeholder,
+  .form-group textarea::placeholder {
+    color: #c4a5b4;
   }
 
   .form-group textarea {
@@ -157,10 +159,27 @@
     box-shadow: 0 4px 12px rgba(232, 180, 212, 0.35);
   }
 
+  .submit-button:active {
+    transform: translateY(0);
+  }
+
+  .button-icon {
+    flex-shrink: 0;
+  }
+
   .comments-list {
     margin-top: 2rem;
     padding-top: 2rem;
     border-top: 2px dashed #f5d4e6;
+  }
+
+  .no-comments {
+    text-align: center;
+    color: #b89aa8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    margin: 1rem 0;
   }
 
   .comment-item {
@@ -200,7 +219,7 @@
   }
 
   .comment-text {
-    color: #4a4a4a;
+    color: #9f7091;
     font-family: 'Poppins', sans-serif;
     font-size: 0.95rem;
     line-height: 1.6;
@@ -210,129 +229,123 @@
   @media (max-width: 640px) {
     .comments-section {
       padding: 1.5rem;
+      margin: 2rem 0 1.5rem;
     }
+
+    .comments-title {
+      font-size: 1.5rem;
+    }
+
+    .comments-subtitle {
+      font-size: 0.85rem;
+      padding: 0 0.5rem;
+    }
+
     .submit-button {
       width: 100%;
     }
   }
 </style>
 
-<script is:inline>
-  (function() {
-    console.log('🎯 INICIANDO SCRIPT DE COMENTARIOS');
+<script>
+  // Funcionalidad básica para el formulario
+  const commentForm = document.getElementById('commentForm') as HTMLFormElement;
+  const commentsList = document.getElementById('commentsList') as HTMLElement;
+
+  // Cargar comentarios guardados del localStorage
+  function loadComments() {
+    const pageSlug = window.location.pathname;
+    const savedComments = localStorage.getItem(`comments_${pageSlug}`);
     
-    function iniciar() {
-      console.log('Intentando iniciar...');
-    console.log('✅ Script cargado');
-    
-    const form = document.getElementById('commentForm');
-    const lista = document.getElementById('commentsList');
-    
-    if (!form || !lista) {
-      console.error('❌ No se encontraron elementos');
-      return;
+    if (savedComments) {
+      const comments = JSON.parse(savedComments);
+      if (comments.length > 0) {
+        commentsList.innerHTML = '';
+        comments.forEach((comment: any) => {
+          addCommentToDOM(comment.name, comment.text, comment.date);
+        });
+      }
     }
-    
-    console.log('✅ Elementos encontrados');
-    
-    // Cargar comentarios existentes
-    cargarComentarios();
-    
-    // Manejar envío del formulario
-    form.addEventListener('submit', function(e) {
+  }
+
+  function addCommentToDOM(name: string, text: string, date: string) {
+    const commentElement = document.createElement('div');
+    commentElement.className = 'comment-item';
+    commentElement.innerHTML = `
+      <div class="comment-header">
+        <span class="comment-author">${escapeHtml(name)}</span>
+        <span class="comment-date">${new Date(date).toLocaleDateString('es-ES', { 
+          year: 'numeric', 
+          month: 'short', 
+          day: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit'
+        })}</span>
+      </div>
+      <p class="comment-text">${escapeHtml(text)}</p>
+    `;
+    commentsList.appendChild(commentElement);
+  }
+
+  function escapeHtml(unsafe: string) {
+    return unsafe
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+  }
+
+  if (commentForm) {
+    commentForm.addEventListener('submit', (e) => {
       e.preventDefault();
-      console.log('📝 Enviando comentario');
       
-      const nombre = document.getElementById('name').value.trim() || 'Anónimo';
-      const texto = document.getElementById('comment').value.trim();
+      const formData = new FormData(commentForm);
+      let name = formData.get('name') as string;
+      const comment = formData.get('comment') as string;
       
-      if (!texto) {
-        alert('Escribe un comentario');
+      // Validar que el comentario no esté vacío
+      if (!comment || comment.trim() === '') {
+        alert('Por favor, escribe un comentario antes de enviar.');
         return;
       }
       
-      // Guardar en localStorage
-      const slug = window.location.pathname;
-      let comentarios = JSON.parse(localStorage.getItem('comentarios_' + slug) || '[]');
+      // Si no hay nombre, usar "Anónimo"
+      const isAnonymous = !name || name.trim() === '';
+      if (isAnonymous) {
+        name = 'Anónimo';
+      }
       
-      const nuevoComentario = {
-        nombre: nombre,
-        texto: texto,
-        fecha: new Date().toISOString()
-      };
+      const date = new Date().toISOString();
+
+      // Guardar en localStorage (por página)
+      const pageSlug = window.location.pathname;
+      const savedComments = localStorage.getItem(`comments_${pageSlug}`);
+      const comments = savedComments ? JSON.parse(savedComments) : [];
       
-      comentarios.push(nuevoComentario);
-      localStorage.setItem('comentarios_' + slug, JSON.stringify(comentarios));
-      
-      // Mostrar comentario
-      mostrarComentario(nuevoComentario);
-      
+      comments.push({ name, text: comment, date });
+      localStorage.setItem(`comments_${pageSlug}`, JSON.stringify(comments));
+
+      // Limpiar el mensaje de "no hay comentarios" si existe
+      const noComments = commentsList.querySelector('.no-comments');
+      if (noComments) {
+        noComments.remove();
+      }
+
+      // Añadir comentario al DOM
+      addCommentToDOM(name, comment, date);
+
       // Limpiar formulario
-      form.reset();
+      commentForm.reset();
       
-      // Enviar email (opcional, en segundo plano)
-      enviarEmail(nombre, texto);
-      
-      console.log('✅ Comentario guardado y mostrado');
+      // Scroll suave al nuevo comentario
+      setTimeout(() => {
+        const lastComment = commentsList.lastElementChild;
+        lastComment?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }, 100);
     });
-    
-    function cargarComentarios() {
-      const slug = window.location.pathname;
-      const comentarios = JSON.parse(localStorage.getItem('comentarios_' + slug) || '[]');
-      comentarios.forEach(mostrarComentario);
-    }
-    
-    function mostrarComentario(comentario) {
-      const div = document.createElement('div');
-      div.className = 'comment-item';
-      
-      const fecha = new Date(comentario.fecha);
-      const fechaTexto = fecha.toLocaleDateString('es-ES', {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit'
-      });
-      
-      div.innerHTML = `
-        <div class="comment-header">
-          <span class="comment-author">${escapar(comentario.nombre)}</span>
-          <span class="comment-date">${fechaTexto}</span>
-        </div>
-        <p class="comment-text">${escapar(comentario.texto)}</p>
-      `;
-      
-      lista.appendChild(div);
-    }
-    
-    function escapar(texto) {
-      const div = document.createElement('div');
-      div.textContent = texto;
-      return div.innerHTML;
-    }
-    
-    function enviarEmail(nombre, texto) {
-      const datos = new FormData();
-      datos.append('access_key', 'ac372efb-3a75-42da-9aa0-a90846659aa4');
-      datos.append('subject', '💬 Nuevo comentario en el blog');
-      datos.append('from_name', 'Blog Maaz-Peaches');
-      datos.append('name', nombre);
-      datos.append('comment', texto);
-      datos.append('page_url', window.location.href);
-      
-      fetch('https://api.web3forms.com/submit', {
-        method: 'POST',
-        body: datos
-      }).catch(err => console.warn('Email no enviado:', err));
-    }
-    }
-    
-    // Ejecutar cuando el DOM esté listo
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', iniciar);
-    } else {
-      iniciar();
-    }
-  })();
+  }
+
+  // Cargar comentarios al cargar la página
+  loadComments();
 </script>

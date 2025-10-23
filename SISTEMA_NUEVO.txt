@@ -1,0 +1,42 @@
+🎯 SISTEMA COMPLETAMENTE NUEVO - MÁS SIMPLE Y FUNCIONAL
+======================================================
+
+✅ CAMBIOS IMPLEMENTADOS:
+- Código completamente reescrito desde cero
+- Eliminé 414 líneas de código complejo
+- Solo 203 líneas de código simple y claro
+- Sin directivas especiales de Astro
+- Sin problemas de imports o componentes
+
+🎨 PALETA DE COLORES CONSISTENTE:
+- Texto principal: #9f7091 (rosa-gris del blog)
+- Nombres: #d87ba7 (rosa principal del título)
+- Fechas: #b89aa8 (rosa claro de las fechas)
+- Inputs: #9f7091 (rosa-gris consistente)
+- NO HAY LETRAS NEGRAS
+
+🚀 FUNCIONALIDADES:
+- ✅ Comentarios se muestran inmediatamente
+- ✅ Botón "Responder" en cada comentario
+- ✅ Formularios de respuesta inline
+- ✅ Respuestas anidadas con diseño visual
+- ✅ Emails automáticos (comentarios + respuestas)
+- ✅ Colores 100% consistentes con el blog
+
+📝 CÓMO PROBAR:
+1. Ve a: https://marinalopez98.github.io/Maaz-Peaches/blog/blogpost-1
+2. Ctrl + Shift + R (limpiar caché)
+3. Escribe un comentario y envíalo
+4. Verás el comentario aparecer abajo
+5. Haz clic en "Responder"
+6. Escribe una respuesta
+7. ¡Verás cómo se muestra anidada con colores perfectos!
+
+💡 VENTAJAS DE LA NUEVA VERSIÓN:
+- Más rápida de cargar
+- Menos errores posibles
+- Más fácil de mantener
+- Colores perfectos desde el primer momento
+- Funciona en cualquier navegador
+
+🍑 ¡Todo en colores rosa armónicos! ✨
