@@ -4,7 +4,7 @@
 
 <section class="comments-section">
   <div class="comments-header">
-    <h3 class="comments-title">💭 Comentarios</h3>
+    <h3 class="comments-title">Comentarios</h3>
     <p class="comments-subtitle">Si no te sientes escuchado, aquí tienes el espacio perfecto. No te escucharemos, pero ten por seguro que te leeré</p>
   </div>
 
@@ -42,7 +42,6 @@
   </div>
 
   <div class="comments-list" id="commentsList">
-    <p class="no-comments">Sé el primero en comentar 🌸</p>
   </div>
 </section>
 
@@ -171,15 +170,6 @@
     margin-top: 2rem;
     padding-top: 2rem;
     border-top: 2px dashed #f5d4e6;
-  }
-
-  .no-comments {
-    text-align: center;
-    color: #b89aa8;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
-    font-style: italic;
-    margin: 1rem 0;
   }
 
   .comment-item {
@@ -313,7 +303,7 @@
       // Si no hay nombre, usar "Anónimo"
       const isAnonymous = !name || name.trim() === '';
       if (isAnonymous) {
-        name = 'Anónimo 🎭';
+        name = 'Anónimo';
       }
       
       const date = new Date().toISOString();
@@ -325,12 +315,6 @@
       
       comments.push({ name, text: comment, date });
       localStorage.setItem(`comments_${pageSlug}`, JSON.stringify(comments));
-
-      // Limpiar el mensaje de "no hay comentarios" si existe
-      const noComments = commentsList.querySelector('.no-comments');
-      if (noComments) {
-        noComments.remove();
-      }
 
       // Añadir comentario al DOM
       addCommentToDOM(name, comment, date);
