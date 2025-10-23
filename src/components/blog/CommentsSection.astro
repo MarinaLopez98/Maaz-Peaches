@@ -338,6 +338,7 @@
         });
 
         const result = await response.json();
+        console.log('Respuesta de Web3Forms:', result);
 
         if (response.ok && result.success) {
           // Guardar en localStorage (por página)
@@ -348,30 +349,35 @@
           comments.push({ name, text: comment, date });
           localStorage.setItem(`comments_${pageSlug}`, JSON.stringify(comments));
 
-          // Añadir comentario al DOM
+          // Añadir comentario al DOM inmediatamente
           addCommentToDOM(name, comment, date);
 
           // Limpiar formulario
           commentForm.reset();
           
-          // Mostrar mensaje de éxito
-          alert('¡Comentario enviado! Te he enviado una copia por email.');
+          // Restaurar el botón
+          submitButton.disabled = false;
+          submitButton.innerHTML = originalButtonText;
+          
+          // Scroll suave al nuevo comentario
+          setTimeout(() => {
+            const lastComment = commentsList.lastElementChild;
+            if (lastComment) {
+              lastComment.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+          }, 100);
+          
+          console.log('¡Comentario enviado y mostrado correctamente!');
         } else {
+          submitButton.disabled = false;
+          submitButton.innerHTML = originalButtonText;
           alert('Hubo un problema al enviar el comentario. Por favor, inténtalo de nuevo.');
         }
       } catch (error) {
         console.error('Error al enviar comentario:', error);
-        alert('Error de conexión. Por favor, verifica tu internet e inténtalo de nuevo.');
-      } finally {
-        // Restaurar el botón
         submitButton.disabled = false;
         submitButton.innerHTML = originalButtonText;
-        
-        // Scroll suave al nuevo comentario
-        setTimeout(() => {
-          const lastComment = commentsList.lastElementChild;
-          lastComment?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-        }, 100);
+        alert('Error de conexión. Por favor, verifica tu internet e inténtalo de nuevo.');
       }
     });
   }
