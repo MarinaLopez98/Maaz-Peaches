@@ -113,82 +113,11 @@ const pubDate = new Date(blogpost.data.pubDate);
   </main>
 </Layout>
 
-<script>
-  console.log('Comments system loaded');
-
-  // Simple comment system
-  (function() {
-    console.log('Setting up comments...');
-
-    const form = document.getElementById('commentForm');
-    const commentsList = document.getElementById('commentsList');
-
-    if (!form || !commentsList) {
-      console.error('Elements not found');
-      return;
-    }
-
-    console.log('System ready');
-
-    // Load existing comments
-    loadComments();
-
-    // Handle form submission
-    form.addEventListener('submit', function(e) {
-      e.preventDefault();
-      console.log('Form submitted');
-
-      const nombre = document.getElementById('name')?.value?.trim() || 'Anonymous';
-      const texto = document.getElementById('comment')?.value?.trim();
-
-      if (!texto) {
-        alert('Please write a comment');
-        return;
       }
 
-      // Create comment object
-      const comentario = {
-        nombre: nombre,
-        texto: texto,
-        fecha: new Date().toISOString()
-      };
-
-      // Show immediately with PINK text for main comments
-      showComment(comentario);
-
-      // Save to localStorage
-      saveComment(comentario);
-
-      // Clear form
-      form.reset();
-
-      // Send email
-      sendEmail(comentario);
-
-      console.log('Comment processed');
-    });
-
-    function loadComments() {
-      const clave = 'comments_' + window.location.pathname;
-      const comentarios = JSON.parse(localStorage.getItem(clave) || '[]');
-
-      if (comentarios.length > 0) {
-        commentsList.innerHTML = '';
-        comentarios.forEach(showComment);
       }
     }
 
-    function showComment(comentario) {
-      const div = document.createElement('div');
-      div.className = 'comment-item';
-
-      const fecha = new Date(comentario.fecha);
-      const fechaTexto = fecha.toLocaleDateString('es-ES', {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit'
       });
 
       // Simple HTML without complex JavaScript
@@ -196,17 +125,9 @@ const pubDate = new Date(blogpost.data.pubDate);
 
       div.style.cssText = 'padding: 1.25rem; margin-bottom: 1rem; background: #ffffff; border: 2px solid #f5d4e6; border-radius: 1rem; transition: all 0.3s ease;';
 
-      const commentsList = document.getElementById('commentsList');
-      if (commentsList) {
-        commentsList.appendChild(div);
-      }
+           }
     }
 
-    function saveComment(comentario) {
-      const clave = 'comments_' + window.location.pathname;
-      const comentarios = JSON.parse(localStorage.getItem(clave) || '[]');
-      comentarios.push(comentario);
-      localStorage.setItem(clave, JSON.stringify(comentarios));
     }
 
     function escapeHtml(text) {
@@ -218,40 +139,11 @@ const pubDate = new Date(blogpost.data.pubDate);
         .replace(/'/g, "&#039;");
     }
 
-    function sendEmail(comentario) {
-      console.log('Sending email...');
-
-      const formData = new FormData();
-      formData.append('access_key', 'ac372efb-3a75-42da-9aa0-a90846659aa4');
-      formData.append('subject', 'New comment on blog');
-      formData.append('from_name', 'Blog Maaz-Peaches');
-      formData.append('name', comentario.nombre);
-      formData.append('comment', comentario.texto);
-      formData.append('page_url', window.location.href);
-      formData.append('redirect', 'false');
-
-      fetch('https://api.web3forms.com/submit', {
-        method: 'POST',
-        body: formData
-      })
-      .then(response => {
-        console.log('Email sent');
-        return response.json();
-      })
-      .then(data => console.log('Email response:', data))
-      .catch(error => {
-        console.warn('Email error:', error);
       });
     }
 
-    console.log('Comments system ready');
   })();
 
-  // Simple global function
-  window.showReplyForm = function() {
-    const replyDiv = document.getElementById('reply-form');
-    if (replyDiv) {
-      replyDiv.style.display = replyDiv.style.display === 'none' ? 'block' : 'none';
     }
   };
 </script>
