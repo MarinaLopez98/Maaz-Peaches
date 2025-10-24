@@ -20,3 +20,10 @@ Alguien podría preguntarse, y entonces en qué colaboro yo... ¡Bueno, pues no 
 **Si alguna vez os sentís así, recordad, seguid rodando.  
 Un saludo,  
 Peach.**
+<script src="https://utteranc.es/client.js"
+        repo="MarinaLopez98/Comments-"
+        issue-term="pathname"
+        theme="photon-dark"
+        crossorigin="anonymous"
+        async>
+</script>
