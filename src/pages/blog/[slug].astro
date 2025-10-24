@@ -69,32 +69,7 @@ const pubDate = new Date(blogpost.data.pubDate);
                 />
               </div>
 
-              <div style="display: flex; flex-direction: column; gap: 0.5rem;">
-                <label style="font-size: 0.9rem; font-weight: 600; color: #9f7091; font-family: 'Poppins', sans-serif;" for="comment">Comment</label>
-                <textarea
-                  id="comment"
-                  name="comment"
-                  rows="4"
-                  placeholder="Write your comment here..."
-                  required
-                  style="padding: 0.75rem 1rem; border: 2px solid #f5d4e6; border-radius: 0.75rem; font-size: 0.95rem; font-family: 'Poppins', sans-serif; background: #ffffff; color: #9f7091; transition: all 0.3s ease; resize: vertical; min-height: 100px;"
-                ></textarea>
-              </div>
-
-              <button type="submit" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 0.875rem 1.75rem; background: linear-gradient(135deg, #e8b4d4 0%, #f5d4e6 100%); color: #6b4a5a; border: 2px solid #d87ba7; border-radius: 0.875rem; font-size: 1rem; font-weight: 600; font-family: 'Poppins', sans-serif; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 8px rgba(232, 180, 212, 0.25); align-self: flex-start;">
-                <span>Send comment</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <line x1="22" y1="2" x2="11" y2="13"></line>
-                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-                </svg>
-              </button>
-            </form>
-          </div>
-
-          <div id="commentsList" style="margin-top: 2rem; padding-top: 2rem; border-top: 2px dashed #f5d4e6;">
-            <p style="text-align: center; color: #b89aa8; font-family: 'Poppins', sans-serif; font-size: 1rem; font-style: italic; margin: 1rem 0;">Be the first to comment</p>
-          </div>
-        </section>
+}
         
         <BuyMeCoffee username="rollingpeaches" />
         
@@ -142,7 +117,7 @@ function escapeHtml(text) {
       };
     }
 
-  });
+  };
 
     }
   };
