@@ -4,18 +4,15 @@ import BuyMeCoffee from '@components/generic/BuyMeCoffee.astro';
 interface Props {
   content: any;
 }
-
 ---
 
-<article class='prose-slate w-sm md:w-prose md:prose coinfant p-4 text-justify'>
-  <a href='/Maaz-Peaches/' title='Back to home'>&larr; Back to home</a>
-  <!--p class='text-slate text-sm md:text-base'>
-    Published on {content.pubDate} by {content.author}
-  </p-->
+<article class="prose-slate w-sm md:w-prose md:prose coinfant p-4 text-justify">
+  <a href="/Maaz-Peaches/" title="Back to home">&larr; Back to home</a>
+  
   <slot />
-  <!--p class='text-slate'>Written by {content.author}</p-->
   
   <BuyMeCoffee username="rollingpeaches" />
   
-  <a href='/Maaz-Peaches/' title='Back to blog'>&larr; Back to home</a>
+  <a href="/Maaz-Peaches/" title="Back to blog">&larr; Back to home</a>
 </article>
+
