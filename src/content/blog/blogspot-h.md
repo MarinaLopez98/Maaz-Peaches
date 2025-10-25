@@ -3,9 +3,16 @@ title: "Unaffordable healing."
 pubDate: '2025-10-23'
 author: Marina Lopez
 tags:
+  - Blood
+  - Stuck
+imgUrl: ---
+title: "Unaffordable healing."  
+pubDate: '2025-10-23'
+author: Marina Lopez
+tags:
   - "Blood"
   - "Stuck"
-imgUrl: ../../assets/peachfirma.jpg
+imgUrl: ../../assets/mangas.jpg
 imgUrlHover: ../../assets/rosafirma.jpg
 description: "Diario de un ventilador."
 ---
