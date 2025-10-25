@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
-title: "Unaffordable healing."  
-=======
 title: "Unaffordable healing."
->>>>>>> 058c448 (Add blogpost h and restore Ko-fi layout block)
 pubDate: "2025-10-23"
 author: Marina Lopez
 tags:
@@ -11,8 +7,7 @@ tags:
   - Stuck
 imgUrl: "src/assets/mangas.jpg"
 imgUrlHover: "src/assets/blackcolour.jpg"
-<<<<<<< HEAD
-description: "How to heal your pockets." 
+description: "How to heal your pockets."
 ---
 
 And here I am, finally with my €360 “solution” (woohoo! ;w;), one that will only last a year for a chronic illness. It guarantees a swollen body and a day of dizziness, and that’s only if you do what you’re supposed to: strength exercises while wearing them.
