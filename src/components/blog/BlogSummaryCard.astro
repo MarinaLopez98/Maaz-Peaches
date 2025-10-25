@@ -7,9 +7,9 @@ import { Button } from '@eliancodes/brutal-ui';
 interface Props {
   post: CollectionEntry<'blog'>;
 }
-
----
 const { post } = Astro.props;
+---
+
 
 <SummaryCard
   title={post.data.title}
