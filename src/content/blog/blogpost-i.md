@@ -4,7 +4,7 @@ pubDate: '2025-10-25'
 author: Marina Lopez
 tags:
   - "negación"
-imgUrl: ../../assets/peachfirma.jpg
+imgUrl: src/assets/360f758658515c874d48084416348680.jpg
 imgUrlHover: ../../assets/rosafirma.jpg
 description: Y la ayuda que llega. Imágenes gracias a RIME.
 ---
