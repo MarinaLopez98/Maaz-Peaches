@@ -20,7 +20,7 @@ This is loooooking great.
 **Si alguna vez os sentís así, recordad, seguid rodando.  
 Un saludo,  
 Peach.**
-<<<<<<< HEAD
+
 
 =======
 >>>>>>> 058c448 (Add blogpost h and restore Ko-fi layout block)
