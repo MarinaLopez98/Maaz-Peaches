@@ -5,23 +5,13 @@ author: Marina Lopez
 tags:
   - Blood
   - Stuck
-imgUrl: ---
-title: "Unaffordable healing."  
-pubDate: '2025-10-23'
-author: Marina Lopez
-tags:
-  - "Blood"
-  - "Stuck"
-imgUrl: ../../assets/mangas.jpg
-imgUrlHover: ../../assets/rosafirma.jpg
-description: "Diario de un ventilador."
 ---
-## Blog para desahogarme cuando los tiempos sean difíciles.
-
-A veces será español, otras inglés... ¡Quién sabe! c: Mantiene el dueño que montó el trabajo inicial: Maaz-Selia. Hoy es mi primer día intentando continuarlo y, la verdad, es muuuuy difícil... ¡Maaz, te haré sentir orgulloso! También veréis arte de personas tan especiales como mi Matcha, que hace unas ilustraciones preciosas y emotivas... Por ejemplo, la Peach dibujada por ella de este post no rueda, es mágica. ¡Una maho shojo! Algunas de ellas no me pertenecen y son propiedad de sus respectivos autores. Se utilizan únicamente con fines ilustrativos.
-
-Alguien podría preguntarse, y entonces en qué colaboro yo... ¡Bueno, pues no sé muy bien! Escribir, quejarme y rodar supongo Ü. ¡Adióóós!
-
+imgUrl: ../../assets/mangas.jpg
+imgUrlHover: src/assets/blackcolour.jpg
+description: How to heal your pockets. 
+---
+And here I am, finally with my €360 “solution” (woohoo! ;w;), one that will only last a year for a chronic illness. It guarantees a swollen body and a day of dizziness, and that’s only if you do what you’re supposed to: strength exercises while wearing them.
+This is looooking great.
 ---
 
 **Si alguna vez os sentís así, recordad, seguid rodando.  
