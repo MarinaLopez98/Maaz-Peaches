@@ -1,10 +1,10 @@
 ---
-title: "¡Hola, caracola!"  
-pubDate: '2025-10-08'
+title: "Unaffordable healing."  
+pubDate: '2025-10-23'
 author: Marina Lopez
 tags:
-  - "¡Si no puedes avanzar, limítate a rodar!"
-  - Esta de aquí se presenta
+  - "Blood"
+  - "Stuck"
 imgUrl: ../../assets/peachfirma.jpg
 imgUrlHover: ../../assets/rosafirma.jpg
 description: "Diario de un ventilador."
