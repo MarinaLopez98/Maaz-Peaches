@@ -5,7 +5,7 @@ author: Marina Lopez
 tags:
   - "negación"
 imgUrl: src/assets/360f758658515c874d48084416348680.jpg
-imgUrlHover: ../../assets/rosafirma.jpg
+imgUrlHover: src/assets/fab278dbbeec47ad1dd741a174dcede9.jpg
 description: Y la ayuda que llega. Imágenes gracias a RIME.
 ---
 ¿Cuántos días, cuántos meses hacen falta para atravesar una etapa de duelo?
