@@ -1,5 +1,5 @@
 ---
-import BuyMeCoffee from '@components/generic/BuyMeCoffee.astro';
+import KoFiCard from '@components/generic/KoFiCard.astro';
 
 interface Props {
   content: any;
@@ -11,8 +11,17 @@ interface Props {
   
   <slot />
   
-  <BuyMeCoffee username="rollingpeaches" />
-  
-  <a href="/Maaz-Peaches/" title="Back to blog">&larr; Back to home</a>
-</article>
+  <KoFiCard username="rollingpeaches" />
 
+  <div class='flex justify-center mt-6'>
+    <img
+      src='https://raw.githubusercontent.com/MarinaLopez98/Maaz-Peaches/master/src/assets/Peach.jpg'
+      alt='Ilustración Peach'
+      class='rounded-lg border-2 border-black shadow-lg'
+      style='max-width: 300px; width: 100%;'
+      loading='lazy'
+    />
+  </div>
+
+  <a href="/Maaz-Peaches/" title="Back to blog">&larr; Back to blog</a>
+</article>

@@ -9,6 +9,7 @@ interface Props {
 }
 
 ---
+const { post } = Astro.props;
 
 <SummaryCard
   title={post.data.title}
@@ -26,7 +27,7 @@ interface Props {
     <div class='flex justify-between items-center'>
       <ul class='flex flex-wrap gap-4 mt-2'>
         {
-          post.data.tags.map((tag) => {
+          post.data.tags.map((tag: string) => {
             return (
               <li>
                 <a class="sanchez">

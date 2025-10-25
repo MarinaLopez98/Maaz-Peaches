@@ -1,4 +1,3 @@
-
 ---
 title: "Es un hasta luego." 
 pubDate: '2025-10-22'
