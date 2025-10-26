@@ -17,7 +17,7 @@ Porque no quieres mirar, porque no quieres sentir.
 Después de todo, ¿a quién ibas a rezar?
 
 Volverá... o no volverá.
-Pero yo estaré aquí, mejor o peor pero inamovible. 
+Pero yo estaré aquí, mejor o peor pero inamovible. Como siempre ha sido. 
 
 ---
 
