@@ -6,7 +6,7 @@ tags:
   - "what you imagined"
   - "are lies"
 imgUrl: src/assets/whatyouimagined.jpg
-imgUrlHover: src/assets/lies.jpg
+imgUrlHover: src/assets/imagination.jpg
 description: Aves de papel.
 ---
 ¿Qué fue de aquel sueño?  
