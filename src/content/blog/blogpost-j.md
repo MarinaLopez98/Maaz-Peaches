@@ -1,5 +1,5 @@
 ---
-title: "Duelo"  
+title: "Oh, love"  
 pubDate: '2025-10-25'
 author: Marina Lopez
 tags:
