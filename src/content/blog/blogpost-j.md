@@ -9,10 +9,10 @@ imgUrl: src/assets/what you imagined.jpg
 imgUrlHover: src/assets/lies.jpg
 description: Aves de papel.
 ---
-¿Qué fue de aquel sueño?
-¿Sería acaso aves de papel?
-¿Será que se quemaron, 
-quedando en mentiras de ceniza?
+¿Qué fue de aquel sueño?  
+¿Sería acaso aves de papel?  
+¿Será que se quemaron,   
+quedando en mentiras de ceniza?  
 O será que los quemaste.
 
 ---
