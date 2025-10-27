@@ -5,7 +5,7 @@ author: Marina Lopez
 tags:
   - "what you imagined"
   - "are lies"
-imgUrl: src/assets/what you imagined.jpg
+imgUrl: src/assets/whatyouimagined.jpg
 imgUrlHover: src/assets/lies.jpg
 description: Aves de papel.
 ---
