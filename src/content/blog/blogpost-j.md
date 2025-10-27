@@ -5,13 +5,8 @@ author: Marina Lopez
 tags:
   - "what you imagined"
   - "are lies"
-<<<<<<< HEAD
 imgUrl: src/assets/whatyouimagined.jpg
-imgUrlHover: src/assets/imagination.jpg
-=======
-imgUrl: ../../assets/imagination.jpg
-imgUrlHover: ../../assets/whatyouimagined.jpg
->>>>>>> c8a6bba (Update blogpost-h.md)
+imgUrlHover: src/assets/lies.jpg
 description: Aves de papel.
 ---
 ¿Qué fue de aquel sueño?  
