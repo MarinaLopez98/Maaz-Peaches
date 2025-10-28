@@ -7,7 +7,7 @@ tags:
   - Solo vencida
 imgUrl: src/assets/blackcolour.jpg
 imgUrlHover: src/assets/blackcolour.jpg
-description: "Vae victis." Ay, de los vencidos.
+description: "Vae victis. Ay, de los vencidos."
 ---
 Celebro. Celebramos. Celebran y sonrío. Y no me puedo creer cuán vacía estoy sin decírselo al otro vencedor. 
 Me pasaré la vida, sin dormir... Los sueños se rompen, tan de golpe.
