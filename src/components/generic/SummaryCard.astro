@@ -13,9 +13,10 @@ interface Props {
 const { title, imgAlt, imgSrc, imgSrcHover, description } = Astro.props;
 ---
 
-<Card color='#8b6dca'>
+<card color='#8b6dca'>
   <h3 class='poppins text-lg md:text-xl'>{title}</h3>
   <div class='h-full flex flex-col rounded-lg border-3 border-black my-4 image-swap-container'>
+<div class='h-full flex flex-col'>
     <Image
       src={imgSrc}
       alt={imgAlt}
@@ -35,7 +36,8 @@ const { title, imgAlt, imgSrc, imgSrcHover, description } = Astro.props;
   </div>
   <p class='poppins'>{description}</p>
   <slot />
-</Card>
+</div>
+</card>
 
 <style>
   .image-swap-container {
