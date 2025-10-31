@@ -1,6 +1,6 @@
 ---
 title: "Fuego encendido" 
-pubDate: '2025-10-28'
+pubDate: '2025-10-29'
 author: Rolling Peaches
 tags: 
   - No dejes que se apague
