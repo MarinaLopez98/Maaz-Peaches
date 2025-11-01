@@ -5,7 +5,7 @@ author: Rolling Peaches
 tags: 
   - Yo no te perdí 
   - Tú me echaste 
-imgUrl: src/assets/blackcolour.jpg
+imgUrl: src/assets/0bb80bbf456ca63bf236e3e9f22f0630.jpg
 imgUrlHover: src/assets/blackcolour.jpg
 description: "De cómo no te perdí pero sí puede que andemos un poco perdidos"
 ---
