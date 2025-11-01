@@ -6,7 +6,7 @@ tags:
   - Yo no te perdí 
   - Tú me echaste 
 imgUrl: src/assets/0bb80bbf456ca63bf236e3e9f22f0630.jpg
-imgUrlHover: src/assets/blackcolour.jpg
+imgUrlHover: src/assets/IMG_0257.jpg
 description: "De cómo no te perdí pero sí puede que andemos un poco perdidos"
 ---
 ¿Y si me hubiera quedado embarazada? 
