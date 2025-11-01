@@ -6,7 +6,7 @@ tags:
   - "Negro"
   - Y un agujero
 imgUrl: "src/assets/IMG_0483.jpg"
-imgUrlHover: "../../assets/blackcolour.jpg"
+imgUrlHover: "src/assets/IMG_0560.jpeg"
 description: "Un adiós y mil terrores."
 ---
 
