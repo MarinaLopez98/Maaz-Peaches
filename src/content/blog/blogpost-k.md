@@ -5,7 +5,7 @@ author: Rolling Peaches
 tags: 
   - No hay vencedor
   - Solo vencida
-imgUrl: src/assets/blackcolour.jpg
+imgUrl: src/assets/15681ca9d03bd967abc413d1feb61598.jpg
 imgUrlHover: src/assets/blackcolour.jpg
 description: "Vae victis. Ay, de los vencidos."
 ---
