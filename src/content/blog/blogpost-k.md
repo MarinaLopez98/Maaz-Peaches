@@ -6,7 +6,7 @@ tags:
   - No hay vencedor
   - Solo vencida
 imgUrl: src/assets/15681ca9d03bd967abc413d1feb61598.jpg
-imgUrlHover: src/assets/blackcolour.jpg
+imgUrlHover: src/assets/IMG_0484.jpg
 description: "Vae victis. Ay, de los vencidos."
 ---
 Celebro. Celebramos. Celebran y sonrío. Y no me puedo creer cuán vacía estoy sin decírselo al otro vencedor. 
