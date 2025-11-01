@@ -5,7 +5,7 @@ author: Rolling Peaches
 tags: 
   - No dejes que se apague
   - El fuego encendido
-imgUrl: src/assets/blackcolour.jpg
+imgUrl: src/assets/377b1f6a07e5fc678443236a191bad7a.jpg
 imgUrlHover: src/assets/blackcolour.jpg
 description: "El fuego que ardió desatado, como en tiempos de brujas..."
 ---
