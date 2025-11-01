@@ -5,7 +5,7 @@ author: Marina Lopez
 tags:
   - "Negro"
   - Y un agujero
-imgUrl: "../../assets/blackcolour.jpg"
+imgUrl: "src/assets/IMG_0483.jpg"
 imgUrlHover: "../../assets/blackcolour.jpg"
 description: "Un adiós y mil terrores."
 ---
