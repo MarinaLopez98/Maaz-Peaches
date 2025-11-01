@@ -13,7 +13,7 @@ description: Aves de papel.
 ¿Sería acaso aves de papel?  
 ¿Será que se quemaron,  
 quedando en mentiras de ceniza?  
-O será que lo quemaste.  
+O será que lo quemaste.
 
 ---
 
