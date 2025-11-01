@@ -6,7 +6,7 @@ tags:
   - No dejes que se apague
   - El fuego encendido
 imgUrl: src/assets/377b1f6a07e5fc678443236a191bad7a.jpg
-imgUrlHover: src/assets/blackcolour.jpg
+imgUrlHover: src/assets/62846ea3344560d8b95c31ceda126beb.jpg
 description: "El fuego que ardió desatado, como en tiempos de brujas..."
 ---
 Fuego encendido que quisiste apagar, pero no podrás. El fuego no se puede apagar.     
