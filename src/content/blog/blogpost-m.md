@@ -9,7 +9,7 @@ imgUrl: src/assets/blackcolour.jpg
 imgUrlHover: src/assets/blackcolour.jpg
 description: "De cómo no te perdí pero sí puede que andemos un poco perdidos"
 ---
-Y si me hubiera quedado embarazada? 
+¿Y si me hubiera quedado embarazada? 
 Un año, no unos meses, de una irritable y gigantesca yo. ¿También me habrías dejado?
 
 ¿Y si me diagnosticaran una enfermedad? Tensión, falta de calma, malas palabras. ¿También me habrías dejado?
