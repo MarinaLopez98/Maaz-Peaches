@@ -6,7 +6,7 @@ tags:
   - Recuerdos
   - Y dulces
 imgUrl: src/assets/IMG_0616.jpeg 
-imgUrlHover: src/assets/blackcolour.jpg
+imgUrlHover: src/assets/2d818c17632527edfd5894cd8f2fe423.jpg
 description: "Hermosa y tristísima mañana."
 
 ---
