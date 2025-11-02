@@ -58,32 +58,18 @@ The cold of the night always follows.
 Darkness always returns.  
 Not all flowers receive rain and light.  
 And there is nothing we can do about it.”  
-- “What Happens to My Family”, Kang Eun Kyung  
+“What Happens to My Family”, Kang Eun Kyung  
 
-Here he comes. Today, too, he’s coming to see me.  
-Even before I catch sight of him, where silence once reigned there is now the muffled sound of footsteps,   
-a hand brushing my shoulder urging me to turn; and I know, without needing to, that it’s him.  
+Here he comes. Today, too, he’s coming to see me.  Even before I catch sight of him, where silence once reigned there is now the muffled sound of footsteps, a hand brushing my shoulder urging me to turn; and I know, without needing to, that it’s him.  
 
-When I finally do, gentle eyes meet mine, blue and green of him all flood my sight,  
-the faint hues that always seem to follow him, and I wonder why he has come back. Of course,   
-not for a single moment do I consider voicing the question; I have learned the hard way that it is not answers we would rather not know,   
-but questions whose answers pierce the chest like daggers, and for that reason we choose to ignore them.  
+When I finally do, gentle eyes meet mine, blue and green of him all flood my sight, the faint hues that always seem to follow him, and I wonder why he has come back. Of course, not for a single moment do I consider voicing the question; I have learned the hard way that it is not answers we would rather not know, but questions whose answers pierce the chest like daggers, and for that reason we choose to ignore them.  
 
-And yet, when he draws me softly toward That Place, I let him.  
-Matching his pace, and without a word between us, I allow the mishap of yesterday (was it yesterday? is my grasp of time even reliable?)   
-to drift through my mind. I search for what I cannot give him in the form of words, half-formed apologies and explanations that I cannot utter,  
-an attempt to justify why I ignore the question his eyes are asking.  
+And yet, when he draws me softly toward That Place, I let him. Matching his pace, and without a word between us, I allow the mishap of yesterday (was it yesterday? is my grasp of time even reliable?) to drift through my mind. I search for what I cannot give him in the form of words, half-formed apologies and explanations that I cannot utter, an attempt to justify why I ignore the question his eyes are asking.  
 
-The human body is, simply, a shell which, in its effort to be functional, only breeds frustration in the one who inhabits it.  
-So many words to pronounce, a great torrent of emotions wanting to pour out, and a cavity too small to contain them.  
-A small mouth, small lips, incapable of speaking the words that have grown too large for the narrow vocabulary that could never form them.   
-Does that not render the shell useless?  
+The human body is, simply, a shell which, in its effort to be functional, only breeds frustration in the one who inhabits it. So many words to pronounce, a great torrent of emotions wanting to pour out, and a cavity too small to contain them. A small mouth, small lips, incapable of speaking the words that have grown too large for the narrow vocabulary that could never form them. Does that not render the shell useless?  
 And so, I keep silent.  
 
-The moment draws near: That Place I both loathe and long for is close.  
-I remember the first time he brought me here. Without words, I knew it wasn’t an ordinary place. As soon as I set foot beyond the door,  
-nausea rose, threatening through my throat, and a knot of steel and thorns still nests in my stomach. With betrayal tightening my chest,  
-I looked into those innocent eyes that, in silence, begged me not to leave.
+The moment draws near: That Place I both loathe and long for is close. I remember the first time he brought me here. Without words, I knew it wasn’t an ordinary place. As soon as I set foot beyond the door, nausea rose, threatening through my throat, and a knot of steel and thorns still nests in my stomach. With betrayal tightening my chest, I looked into those innocent eyes that, in silence, begged me not to leave.
 
 **Si alguna vez os sentís así, recordad, seguid rodando.  
 Un saludo,  
