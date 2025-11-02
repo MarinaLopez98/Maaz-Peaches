@@ -10,9 +10,9 @@ imgUrlHover: src/assets/blackcolour.jpg
 description: "Hermosa y tristísima mañana."
 
 ---
-Ayer y hoy pasé por allí. Aquel lugar casi mágico si te parabas a escuchar. Entonces hacia frío pero eso no nos impidió pasar, para mí y sé que para ti fue especial también, uno de los mejores días de mi vida. El mar reinaba sobre el silencio, delicias nos conquistaban y nos hacían deleitarnos. Y tus ojos. Tus ojos llenos de amor. Brillantes por la puesta de sol. Rebosantes de esperanzas.
+Ayer y hoy pasé por allí. Aquel lugar casi mágico si te parabas a escuchar. Entonces hacia frío pero eso no nos impidió pasar, para mí y sé que para ti fue especial también, uno de los mejores días de mi vida. El mar reinaba sobre el silencio, delicias nos que nos hacían deleitarnos. Y tus ojos. Tus ojos llenos de amor. Brillantes por la puesta de sol. Rebosantes de esperanzas.
 
-Por eso estoy tan triste. Dónde quedó aquello, dónde quedó esa sonrisa. Ese lugar que hiciste mágico. Dónde quedaste.
+Por eso estoy tan triste. Dónde quedó aquello. Dónde quedó esa sonrisa. Ese lugar que hiciste mágico. Dónde quedaste.
 
 ---
 
