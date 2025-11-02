@@ -5,7 +5,7 @@ author: Rolling Peaches
 tags: 
   - Recuerdos
   - Y dulces
-imgUrl: "src/assets/IMG_0616.jpeg width="500" height="300" 
+imgUrl: src/assets/IMG_0616.jpeg 
 imgUrlHover: src/assets/blackcolour.jpg
 description: "Hermosa y tristísima mañana."
 
