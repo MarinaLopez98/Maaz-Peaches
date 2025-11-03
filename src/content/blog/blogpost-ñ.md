@@ -5,8 +5,8 @@ author: Marina Lopez
 tags: 
   - Han Kang
   - Homenaje
-imgUrl: src/assets/53126268.jpg 
-imgUrlHover: src/assets/22364062.jpg
+imgUrl: src/assets/39354030.jpg
+imgUrlHover: src/assets/53126268.jpg 
 description: "Primera parte de Aquel Lugar."
 ---
 
