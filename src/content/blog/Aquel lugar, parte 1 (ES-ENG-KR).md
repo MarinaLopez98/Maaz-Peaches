@@ -1,5 +1,5 @@
 --- 
-title: "Aquel lugar, parte 1 (ESP/ENG)" 
+title: "Aquel lugar, parte 1 (ESP/ENG/KR)" 
 pubDate: '2019-11-2' 
 author: Marina Lopez
 tags: 
