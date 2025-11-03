@@ -1,5 +1,5 @@
 --- 
-title: "Tan bello y tan triste" 
+title: "Tan bello y tan triste"  
 pubDate: '2025-11-2'
 author: Rolling Peaches
 tags: 
