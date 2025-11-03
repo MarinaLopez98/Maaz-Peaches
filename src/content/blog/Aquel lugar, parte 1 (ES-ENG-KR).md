@@ -68,7 +68,7 @@ The human body is, simply, a shell which, in its effort to be functional, only b
 And so, I keep silent.  
 
 The moment draws near: That Place I both loathe and long for is close. I remember the first time he brought me here. Without words, I knew it wasn’t an ordinary place. As soon as I set foot beyond the door, nausea rose, threatening through my throat, and a knot of steel and thorns still nests in my stomach. With betrayal tightening my chest, I looked into those innocent eyes that, in silence, begged me not to leave.
-
+__________________________________________________________
 그곳
 
 “아무리 따뜻한 햇살이 하루를 채워도,
