@@ -12,9 +12,9 @@ description: "Primera parte de Aquel Lugar."
 
 Aquel Lugar
 
-“No importa cuánto calor traiga el día. El frío de la noche siempre lo acompaña.
+_“No importa cuánto calor traiga el día. El frío de la noche siempre lo acompaña.
 La oscuridad siempre vuelve. No todas las flores consiguen lluvia y luz.
-Y no hay nada que podamos hacer al respecto”, Kang Eun Kyung
+Y no hay nada que podamos hacer al respecto”_, Kang Eun Kyung.
 
 Ahí viene. Hoy también viene a verme.
 Antes de verlo siquiera, donde hubo silencio ahora está el sonido acallado de
@@ -52,11 +52,11 @@ __________________________________________________________
 
 That Place
 
-“No matter how much warmth the day may bring.  
+_“No matter how much warmth the day may bring.  
 The cold of the night always follows.  
 Darkness always returns.  
 Not all flowers receive rain and light.  
-And there is nothing we can do about it.", Kang Eun Kyung  
+And there is nothing we can do about it."_, Kang Eun Kyung.  
 
 Here he comes. Today, too, he’s coming to see me.  Even before I catch sight of him, where silence once reigned there is now the muffled sound of footsteps, a hand brushing my shoulder urging me to turn; and I know, without needing to, that it’s him.  
 
