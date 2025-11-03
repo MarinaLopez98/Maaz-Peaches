@@ -6,7 +6,7 @@ tags:
   - Han Kang
   - Homenaje
 imgUrl: src/assets/53126268.jpg 
-imgUrlHover: src/assets/blackcolour.jpg
+imgUrlHover: src/assets/22364062.jpg
 description: "Primera parte de Aquel Lugar."
 ---
 
