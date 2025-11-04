@@ -4,7 +4,7 @@ pubDate: '2019-11-4'
 author: Marina Lopez
 tags: 
   - Edgar Allan Poe
-  - Reimagined ES/ENG
+  - Reimagined
 imgUrl: src/assets/blackcolour.jpg
 imgUrlHover: src/assets/blackcolour.jpg 
 description: "Primera parte de Corazón Delator, original en español neutro."
