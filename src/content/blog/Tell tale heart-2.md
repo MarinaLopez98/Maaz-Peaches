@@ -1,5 +1,5 @@
 --- 
-title: "Tell tale heart 2 (ES/ENG/KR)" 
+title: "Corazón delator 2 (ES/ENG/KR)" 
 pubDate: '2025-5-11' 
 author: Marina Lopez  
 tags: 
