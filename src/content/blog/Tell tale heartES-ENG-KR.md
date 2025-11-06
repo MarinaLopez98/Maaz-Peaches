@@ -3,7 +3,7 @@ title: "Corazón delator (ES/ENG/KR)"
 pubDate: '2025-4-11' 
 author: Marina Lopez 
 tags: 
-  - Edgar Allan Poe
+  - Edgar Allan Poe 
   - Reimagined
 imgUrl: src/assets/poe.jpg
 imgUrlHover: src/assets/Heart.jpg 
