@@ -6,7 +6,7 @@ tags:
   - Edgar Allan Poe
   - Reimagined 
 imgUrl: src/assets/poe.jpg
-imgUrlHover: src/assets/Heart.jpg 
+imgUrlHover: src/assets/Heart.jpg
 description: "Segunda parte de Corazón Delator, original en español neutro."
 ---
 <p>Levanté luego tres planchas del piso de la habitación y escondí los restos en el hueco. Volví a colocar los tablones con tanta habilidad que ningún ojo humano -ni siquiera el suyo- hubiera podido advertir la menor diferencia. No había nada que lavar… ninguna mancha… ningún rastro de sangre. Yo era demasiado precavido para eso. Una cuba había recogido todo… ¡ja, ja!</p>
