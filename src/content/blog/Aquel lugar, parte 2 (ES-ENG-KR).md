@@ -11,7 +11,7 @@ description: "Segunda parte de Aquel Lugar."
 ---
 
 Aquel Lugar
-<p>*Y fue lo mejor que pude hacer, porque en ese laberinto de barbarie, ruidos
+<p><i>Y fue lo mejor que pude hacer, porque en ese laberinto de barbarie, ruidos
 sordos y actos atroces, fui capaz de observar. Pasillos que de a veces ser infinitos, otros
 eran de abrupto final. Son pasillos que, en este tiempo que transcurre sin noción alguna,
 he recorrido un sinnúmero de veces, y he aprendido a apreciar. Porque nadie dijo que
@@ -50,7 +50,7 @@ algo de agua o luz para brotar, a la espera tras el robo tan desalmado de vidas 
 existencias tan llenas de posibilidades. Pero me equivoqué; la red era tan inseparable,
 tan enredado el conjunto de actos buenos y malos, que el dolor se propagó hacia el
 futuro. La violencia y el odio son un ciclo que se retroalimenta, volviéndose siempre
-más fuerte y no a la inversa.*</p>
+más fuerte y no a la inversa.</i></p>
 __________________________________________________________
 
 <p>That place</p>
