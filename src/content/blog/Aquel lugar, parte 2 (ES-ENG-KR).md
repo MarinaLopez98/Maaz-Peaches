@@ -67,3 +67,6 @@ Yes, ours, for there were not few tears of my own making; and the more I wept, t
 <p>After wandering through the corridors of his memories, memories that reminded me of past existences in my own reality (mine, or someone else’s? past, or an evasion in the present?), it would have been natural to expect some kind of catharsis, some seed of hope waiting for a drop of water or a ray of light to bloom, waiting after such a soulless theft of lives and existences once full of possibility. But I was wrong. The web was too inseparable, the tangle of good and evil acts too tight, and the pain spread forward into the future. Violence and hatred are a cycle that feeds upon itself: growing ever stronger, never the other way around.</i></p>
 __________________________________________________________
 
+**Si alguna vez os sentís así, recordad, seguid rodando.  
+Un saludo,  
+Peach.**
