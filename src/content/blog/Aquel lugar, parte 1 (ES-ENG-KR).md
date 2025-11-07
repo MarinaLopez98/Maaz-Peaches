@@ -12,7 +12,7 @@ description: "Primera parte de Aquel Lugar."
 
 Aquel Lugar
 
-_“No importa cuánto calor traiga el día. El frío de la noche siempre lo acompaña.
+>_“No importa cuánto calor traiga el día. El frío de la noche siempre lo acompaña.
 La oscuridad siempre vuelve. No todas las flores consiguen lluvia y luz.
 Y no hay nada que podamos hacer al respecto”_, Kang Eun Kyung.
 
@@ -52,7 +52,7 @@ __________________________________________________________
 
 That Place
 
-_“No matter how much warmth the day may bring.  
+>_“No matter how much warmth the day may bring.  
 The cold of the night always follows.  
 Darkness always returns.  
 Not all flowers receive rain and light.  
@@ -71,7 +71,7 @@ The moment draws near: That Place I both loathe and long for is close. I remembe
 __________________________________________________________
 그곳
 
-“아무리 따뜻한 햇살이 하루를 채워도,
+>“아무리 따뜻한 햇살이 하루를 채워도,
 밤의 냉기는 언제나 그 뒤를 따른다.
 어둠은 늘 돌아온다.
 모든 꽃이 비와 빛을 받는 것은 아니다.
