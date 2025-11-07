@@ -16,7 +16,7 @@ Aquel Lugar
 La oscuridad siempre vuelve. No todas las flores consiguen lluvia y luz.
 Y no hay nada que podamos hacer al respecto”_, Kang Eun Kyung.
 
-Ahí viene. Hoy también viene a verme.
+<i>Ahí viene. Hoy también viene a verme.
 Antes de verlo siquiera, donde hubo silencio ahora está el sonido acallado de
 sus pasos, una mano que roza mi hombro insta a que me dé la vuelta, y sé sin necesidad
 de girarme que es él.
@@ -47,7 +47,7 @@ Recuerdo la primera vez que me trajo aquí. Sin necesidad de palabras, supe que
 no era un lugar cualquiera. Al poner un pie tras la puerta, la náusea afloró amenazante
 por mi tráquea, y un nudo hecho de acero y espinas anida aún en mi estómago. Con la
 traición que atenaza el pecho, miré esos ojos inocentes que, en silencio, me rogaron
-que no me fuese. 
+que no me fuese.</i>
 __________________________________________________________
 
 That Place
@@ -58,7 +58,7 @@ Darkness always returns.
 Not all flowers receive rain and light.  
 And there is nothing we can do about it."_, Kang Eun Kyung.  
 
-Here he comes. Today, too, he’s coming to see me.  Even before I catch sight of him, where silence once reigned there is now the muffled sound of footsteps, a hand brushing my shoulder urging me to turn; and I know, without needing to, that it’s him.  
+<i>Here he comes. Today, too, he’s coming to see me.  Even before I catch sight of him, where silence once reigned there is now the muffled sound of footsteps, a hand brushing my shoulder urging me to turn; and I know, without needing to, that it’s him.  
 
 When I finally do, gentle eyes meet mine, blue and green of him all flood my sight, the faint hues that always seem to follow him, and I wonder why he has come back. Of course, not for a single moment do I consider voicing the question; I have learned the hard way that it is not answers we would rather not know, but questions whose answers pierce the chest like daggers, and for that reason we choose to ignore them.  
 
@@ -67,7 +67,7 @@ And yet, when he draws me softly toward That Place, I let him. Matching his pace
 The human body is, simply, a shell which, in its effort to be functional, only breeds frustration in the one who inhabits it. So many words to pronounce, a great torrent of emotions wanting to pour out, and a cavity too small to contain them. A small mouth, small lips, incapable of speaking the words that have grown too large for the narrow vocabulary that could never form them. Does that not render the shell useless?  
 And so, I keep silent.  
 
-The moment draws near: That Place I both loathe and long for is close. I remember the first time he brought me here. Without words, I knew it wasn’t an ordinary place. As soon as I set foot beyond the door, nausea rose, threatening through my throat, and a knot of steel and thorns still nests in my stomach. With betrayal tightening my chest, I looked into those innocent eyes that, in silence, begged me not to leave.
+The moment draws near: That Place I both loathe and long for is close. I remember the first time he brought me here. Without words, I knew it wasn’t an ordinary place. As soon as I set foot beyond the door, nausea rose, threatening through my throat, and a knot of steel and thorns still nests in my stomach. With betrayal tightening my chest, I looked into those innocent eyes that, in silence, begged me not to leave.</i>
 __________________________________________________________
 그곳
 
@@ -78,7 +78,7 @@ __________________________________________________________
 그리고 우리는 그것에 대해 아무것도 할 수 없다.”
 — 강은경
 
-소년이 온다. 오늘도 나를 보러 온다.
+<i>소년이 온다. 오늘도 나를 보러 온다.
 그를 보기도 전에, 침묵이 머물던 자리에서 이제는 발소리의 눌린 음이 들리고,
 어깨를 스치는 손길이 나를 돌아보게 한다.
 돌아보지 않아도 나는 안다. 소년이 왔다는 것을.
@@ -121,7 +121,7 @@ __________________________________________________________
 가슴을 조이는 배신감 속에서,
 나는 그 순한 눈을 바라보았다.
 그 눈은 아무 말 없이,
-제발 떠나지 말라고 간청하고 있었다.
+제발 떠나지 말라고 간청하고 있었다.</i>
 
 **Si alguna vez os sentís así, recordad, seguid rodando.  
 Un saludo,  
