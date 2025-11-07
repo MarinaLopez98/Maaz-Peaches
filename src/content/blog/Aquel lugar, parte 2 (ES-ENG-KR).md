@@ -51,7 +51,7 @@ existencias tan llenas de posibilidades. Pero me equivoqué; la red era tan inse
 tan enredado el conjunto de actos buenos y malos, que el dolor se propagó hacia el
 futuro. La violencia y el odio son un ciclo que se retroalimenta, volviéndose siempre
 más fuerte y no a la inversa._</p>
-
+__________________________________________________________
 That place 
 
 <p>And it was the best I could have done, for in that labyrinth of barbarity, of muffled noises and atrocious acts, I was able to observe. Corridors that at times seemed infinite, and at others ended abruptly. They are corridors I have walked countless times in this time that flows without any sense of itself, and I have learned to appreciate them. Because no one ever said that love and hate could not walk hand in hand, did they?</p>
