@@ -55,7 +55,7 @@ __________________________________________________________
 
 <p>That place</p>
 
-<p><i></i>And it was the best I could have done, for in that labyrinth of barbarity, of muffled noises and atrocious acts, I was able to observe. Corridors that at times seemed infinite, and at others ended abruptly. They are corridors I have walked countless times in this time that flows without any sense of itself, and I have learned to appreciate them. Because no one ever said that love and hate could not walk hand in hand, did they?</p>
+<p><i>And it was the best I could have done, for in that labyrinth of barbarity, of muffled noises and atrocious acts, I was able to observe. Corridors that at times seemed infinite, and at others ended abruptly. They are corridors I have walked countless times in this time that flows without any sense of itself, and I have learned to appreciate them. Because no one ever said that love and hate could not walk hand in hand, did they?</p>
 
 <p>Perhaps the most astonishing thing was the absence of a building -or of any awareness of place as we would conceive it- but rather an enormous hive, a hollow bustle that seemed to aspire to nothing. Yet, despite my reluctance, and in the moments when I dared not avert my gaze, I saw it: True Beauty, if such a thing exists, within an immensity of paths and destinies interwoven, forever entangled in the same place.</p>
 
