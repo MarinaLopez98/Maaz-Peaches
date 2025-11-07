@@ -52,9 +52,10 @@ tan enredado el conjunto de actos buenos y malos, que el dolor se propagó hacia
 futuro. La violencia y el odio son un ciclo que se retroalimenta, volviéndose siempre
 más fuerte y no a la inversa._</p>
 __________________________________________________________
-That place 
 
-*<p>And it was the best I could have done, for in that labyrinth of barbarity, of muffled noises and atrocious acts, I was able to observe. Corridors that at times seemed infinite, and at others ended abruptly. They are corridors I have walked countless times in this time that flows without any sense of itself, and I have learned to appreciate them. Because no one ever said that love and hate could not walk hand in hand, did they?</p>
+<p>That place</p>
+
+<p>*And it was the best I could have done, for in that labyrinth of barbarity, of muffled noises and atrocious acts, I was able to observe. Corridors that at times seemed infinite, and at others ended abruptly. They are corridors I have walked countless times in this time that flows without any sense of itself, and I have learned to appreciate them. Because no one ever said that love and hate could not walk hand in hand, did they?</p>
 
 <p>Perhaps the most astonishing thing was the absence of a building -or of any awareness of place as we would conceive it- but rather an enormous hive, a hollow bustle that seemed to aspire to nothing. Yet, despite my reluctance, and in the moments when I dared not avert my gaze, I saw it: True Beauty, if such a thing exists, within an immensity of paths and destinies interwoven, forever entangled in the same place.</p>
 
@@ -63,6 +64,6 @@ Yes, ours, for there were not few tears of my own making; and the more I wept, t
 
 <p>Though he never presses me, neither does he retreat, and he showed me without rest the images in which I recognized his own existence, his past and future lives. I still remember the feeling, the withering realization that when certain limits are crossed, something sacred within the soul is violated. And far too many rooms are filled with people who seem not to know those limits.</p>
 
-<p>After wandering through the corridors of his memories, memories that reminded me of past existences in my own reality (mine, or someone else’s? past, or an evasion in the present?), it would have been natural to expect some kind of catharsis, some seed of hope waiting for a drop of water or a ray of light to bloom, waiting after such a soulless theft of lives and existences once full of possibility. But I was wrong. The web was too inseparable, the tangle of good and evil acts too tight, and the pain spread forward into the future. Violence and hatred are a cycle that feeds upon itself: growing ever stronger, never the other way around.</p>*
+<p>After wandering through the corridors of his memories, memories that reminded me of past existences in my own reality (mine, or someone else’s? past, or an evasion in the present?), it would have been natural to expect some kind of catharsis, some seed of hope waiting for a drop of water or a ray of light to bloom, waiting after such a soulless theft of lives and existences once full of possibility. But I was wrong. The web was too inseparable, the tangle of good and evil acts too tight, and the pain spread forward into the future. Violence and hatred are a cycle that feeds upon itself: growing ever stronger, never the other way around.*</p>
 __________________________________________________________
 
