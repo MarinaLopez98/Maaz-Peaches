@@ -5,8 +5,8 @@ author: Marina Lopez
 tags: 
   - vergüenza de promesas 
   - es lo que son 
-imgUrl: src/assets/blackcolour.jpg
-imgUrlHover: src/assets/IMG_0634.jpeg
+imgUrl: src/assets/IMG_0634.jpeg
+imgUrlHover: src/assets/IMG_0633.jpeg
 description: "Una vergüenza eres y no lo sabías."
 ---
 Promesas. De papel, desvariando al aire, rotas y palabras que no valen nada. Promesas falsas, promesas cumplidas por una mitad. Una mitad dolorida y desangrada por dentro. Por qué prometió aquella mitad, cuando la otra no era capaz de mantenerla y quedó grande y dolorosa. Desgracia, una desgraciada es lo que es.  
