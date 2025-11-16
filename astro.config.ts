@@ -5,7 +5,7 @@ import UnoCSS from 'unocss/astro';
 export default defineConfig({
   // GitHub Deployment
   site: 'https://marinalopez98.github.io',
-  base: '/Maaz-Peaches',
+  base: '/Rolling-Peaches',
   trailingSlash: 'ignore',
   integrations: [sitemap(), UnoCSS({ injectReset: true })],
   vite: {
