@@ -1,7 +1,7 @@
 ---
 title: "A letter to the best four years of my life"  
 pubDate: '2025-10-14'
-author: Marina Lopez
+author: Marina Lopez 
 tags:
   - "ser humano y tratar como a humanos"
   - "ser cuatro años de tu vida y tratar como cuatro años de tu vida"
