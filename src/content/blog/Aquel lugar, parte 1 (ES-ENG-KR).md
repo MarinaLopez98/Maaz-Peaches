@@ -3,7 +3,7 @@ title: "Aquel lugar, parte 1 (ES/ENG/KR)"
 pubDate: '2019-11-2' 
 author: Marina Lopez
 tags: 
-  - Han Kang
+  - Han Kang 
   - Homenaje
 imgUrl: src/assets/39354030.jpg
 imgUrlHover: src/assets/53126268.jpg 
