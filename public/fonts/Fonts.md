@@ -1,4 +1,14 @@
-<AstroFont 
+---
+import { join } from "node:path";
+import { AstroFont } from "astro-font";
+
+const appDir = process.cwd();
+---
+
+<AstroFont
+  config={[
+    {
+      <AstroFont
   config={[
     {
       name: "Outfit",
@@ -74,3 +84,4 @@
     },
   ]}
 />
+
