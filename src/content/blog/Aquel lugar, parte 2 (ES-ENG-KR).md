@@ -3,7 +3,7 @@ title: "Aquel lugar, parte 2 (ES/ENG/KR)"
 pubDate: '2019-11-7' 
 author: Marina Lopez
 tags: 
-  - Han Kang
+  - Han Kang 
   - Homenaje 
 imgUrl: src/assets/IMG_0618.jpeg
 imgUrlHover: src/assets/53126268.jpg 
