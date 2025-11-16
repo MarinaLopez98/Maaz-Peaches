@@ -1,7 +1,6 @@
 ---
 import { join } from "node:path";
 import { AstroFont } from "astro-font";
-
 const appDir = process.cwd();
 ---
 
@@ -15,72 +14,74 @@ const appDir = process.cwd();
       src: [
         {
           style: "normal",
-          path: "Maaz-Peaches/fonts/outfit.ttf",
+          path: "https://fonts.gstatic.com/s/outfit/v11/QGYvz_MVcBeNP4NjuQ.woff2",
         },
       ],
     },
     {
-      display: "swap",
       name: "Poppins",
+      display: "swap",
       selector: ".poppins",
       fallback: "sans-serif",
       src: [
         {
-          preload: false,
           style: "normal",
-          path: "Maaz-Peaches/fonts/poppins.ttf",
+          path: "https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2",
         },
       ],
     },
     {
-      display: "swap",
       name: "Righteous",
-      fallback: "sans-serif",
+      display: "swap",
       selector: ".righteous",
+      fallback: "sans-serif",
       src: [
         {
-          preload: false,
           style: "normal",
-          path: "Maaz-Peaches/fonts/righteous.ttf",
+          path: "https://fonts.gstatic.com/s/righteous/v13/1cXxaUPXBpj2rGoU7C9WiHw.woff2",
         },
       ],
     },
     {
-      display: "swap",
       name: "Sanchez",
-      fallback: "serif",
+      display: "swap",
       selector: ".sanchez",
+      fallback: "serif",
       src: [
         {
-          preload: false,
           style: "normal",
-          path: "Maaz-Peaches/fonts/sanchez.ttf",
+          path: "https://fonts.gstatic.com/s/sanchez/v14/Ycm2sZJORZfVBmrM.woff2",
         },
       ],
     },
     {
-      display: "swap",
-      fallback: "serif",
-      selector: ".dm-serif",
       name: "DM Serif Text",
+      display: "swap",
+      selector: ".dm-serif",
+      fallback: "serif",
       src: [
         {
-          preload: false,
           style: "normal",
-          path: "Maaz-Peaches/fonts/dm-serif.ttf",
+          path: "https://fonts.gstatic.com/s/dmseriftext/v15/rnCw-xZa_krGokauCeNq1wjWX4.woff2",
         },
       ],
     },
     {
+      name: "Cormorant Infant",
       display: "swap",
-      fallback: "serif",
       selector: ".coinfant",
-      name: "Cormorant Infant Regular",
+      fallback: "serif",
       src: [
         {
-          preload: false,
           style: "normal",
-          path: "Maaz-Peaches/fonts/CormorantInfant-Regular.ttf",
+          path: "https://fonts.gstatic.com/s/cormorantinfant/v20/HhyJU4wt9vSfjBU8uG31B6Z5jVBI.woff2",
+        },
+      ],
+    },
+  ]}
+/>
+          style: "normal",
+          path: "Rolling-Peaches/fonts/CormorantInfant-Regular.ttf",
         },
       ],
     },
