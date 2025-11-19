@@ -1,16 +1,38 @@
 ---
+import { AstroError } from 'astro:errors';
+
+// Esto asegura que el servidor devuelva un código 404 real
+export async function getStaticPaths() {
+  return [];
+}
+
+export const prerender = true;
+
+const pageTitle = "404 – Page Not Found";
+const pageDescription = "Sorry, we couldn't find the page you were looking for.";
 ---
 
-<section class='flex flex-col gap-8 justify-between'>
-  <p class='text-9xl font-bold dm-serif'>404</p>
-  <h2 class='text-4xl outfit'>Page Not Found</h2>
-  <p class='text-xl sm:text-3xl sanchez'>
-    Sorry, we couldn't find the page you were looking for.
-  </p>
-  <a
-    href='/'
-    title='Go back home'
-    class='px-4 py-2 border-2 border-black hover:bg-red transition-colors duration-150 ease-in-out w-48 text-center poppins'
-    >&larr; Go Home</a
-  >
-</section>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={pageDescription} />
+  </head>
+  <body class="bg-white text-black">
+    <main class='flex flex-col gap-8 justify-center items-center min-h-screen px-4 text-center'>
+      <p class='text-9xl font-bold dm-serif'>404</p>
+      <h1 class='text-4xl outfit'>{pageTitle}</h1>
+      <p class='text-xl sm:text-3xl sanchez'>{pageDescription}</p>
+      <a
+        href='/'
+        title='Go back home'
+        class='px-4 py-2 border-2 border-black hover:bg-red transition-colors duration-150 ease-in-out w-48 text-center poppins'
+      >
+        &larr; Go Home
+      </a>
+    </main>
+  </body>
+</html>
+``
+
