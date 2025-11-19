@@ -5,7 +5,7 @@ author: Marina Lopez
 tags:
   - "Many questions"
   - No answers
-imgUrl: ../../assets/puchie.jpg
+imgUrl: src/assets/blackcolour.jpg
 imgUrlHover: ../../assets/always there.jpg
 description: "Please help."
 ---
