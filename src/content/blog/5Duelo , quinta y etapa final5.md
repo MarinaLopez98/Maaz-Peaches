@@ -1,5 +1,5 @@
 ---
-title: "Duelo , quinta y etapa final"  
+title: "Duelo, quinta y etapa final"  
 pubDate: '2025-11-14'
 author: Marina Lopez 
 tags:
