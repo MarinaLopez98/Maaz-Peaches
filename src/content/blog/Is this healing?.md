@@ -1,5 +1,5 @@
 ---
-title: "Is this healing?."
+title: "Is this healing?"
 pubDate: "2025-10-23"
 author: Marina Lopez
 tags:
