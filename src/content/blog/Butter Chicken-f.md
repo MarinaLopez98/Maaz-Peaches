@@ -5,9 +5,9 @@ author: Jordi Lopez
 tags:
   - "Favorite food"
   - "Favorite person"
-imgUrl: ../../assets/together.jpg
-imgUrlHover: ../../assets/learn alone.jpg
-description: "Will it be back?"
+imgUrl: ../../assets/learn alone.jpg 
+imgUrlHover: src/assets/blackcolour.jpg
+description: "No volverá"
 ---
 ## ¿Volverá?
 
