@@ -1,5 +1,5 @@
 ---
-title: "Qué significa dejar ir"
+title: "Duelo, cuarta etapa"
 pubDate: '2025-09-14'
 author: Rolling Peaches
 tags:
