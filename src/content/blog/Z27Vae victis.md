@@ -4,7 +4,7 @@ pubDate: '2025-10-19'
 author: Marina Lopez
 tags:
   - ¿Tan difícil es?
-imgUrl: src/assets/flower symbiosis.jpg
+imgUrl: src/assets/7ac2b88bd61210c2c2c254be3ab1a266.jpg
 imgUrlHover: src/assets/twin flowers.jpg
 description: "Las mentiras del corazón."
 ---
