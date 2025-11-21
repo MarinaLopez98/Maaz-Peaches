@@ -1,5 +1,5 @@
 ---
-title: "Imperceptible damage" 
+title: "Duelo, tercera etapa" 
 pubDate: '2025-10-19'
 author: Marina Lopez
 tags:
