@@ -1,20 +1,15 @@
 name: Deploy to GitHub Pages
 
 on:
-  # Trigger the workflow every time you push to the `main` branch
-  # Using a different branch name? Replace `main` with your branch’s name
   push:
-    branches: [ master ]
-  # Allows you to run this workflow manually from the Actions tab on GitHub.
+    branches: [master]  # Si usas 'main' como la rama principal, cámbialo por 'main'
   workflow_dispatch:
 
-# Allow this job to clone the repo and create a page deployment
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Cancel in-progress deployments
 concurrency:
   group: "pages"
   cancel-in-progress: true
@@ -25,22 +20,27 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
+
       - name: Install pnpm
         run: npm install -g pnpm
+
       - name: Clean install
         run: |
           rm -rf node_modules .astro dist
           pnpm install --no-frozen-lockfile
+
       - name: Build
-        run: pnpm run build
+        run: pnpm run build  # Asegúrate de que esto esté generando los archivos en './dist'
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./dist  # Confirmar que la carpeta 'dist' contiene los archivos generados por Astro
 
   deploy:
     needs: build
@@ -52,3 +52,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          branch: gh-pages  # Asegúrate de que el sitio se despliegue a la rama gh-pages
+          folder: ./dist    # El contenido generado por Astro debe estar en ./dist
+
