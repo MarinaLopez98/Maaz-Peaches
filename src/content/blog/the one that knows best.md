@@ -4,7 +4,7 @@ pubDate: '2025-11-14'
 author: Marina Lopez 
 tags:
   - "ser humano y tratar como a humanos"
-  - "ser cuatro años de tu vida y tratar como cuatro años de tu vida"
+  - "ser cuatro años de tu vida y tratar como tal"
 imgUrl: src/assets/IMG_0641.jpeg
 imgUrlHover: src/assets/IMG_0640.jpeg
 description: "Silencio agresivo y claridad que no es igual a manipulación."
