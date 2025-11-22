@@ -5,7 +5,7 @@ author: Marina Lopez
 tags:
   - ¿Tan difícil es?
 imgUrl: src/assets/7ac2b88bd61210c2c2c254be3ab1a266.jpg
-imgUrlHover: src/assets/d3919fc1f3ee8ee54697a3833ac23940.jpg
+imgUrlHover: src/assets/2db8531c3f9e4e5c06c2142c8e9cf2d4.jpg
 description: "Las mentiras del corazón."
 ---
 ## Emociones
