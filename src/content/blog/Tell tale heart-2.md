@@ -1,6 +1,6 @@
 --- 
 title: "Corazón delator 2 (ES/ENG/KR)" 
-pubDate: '2025-5-11' 
+pubDate: '2025-11-5' 
 author: Marina Lopez  
 tags: 
   - Edgar Allan Poe
